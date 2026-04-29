@@ -1,0 +1,466 @@
+PDF TITLES TO FIX MANUALLY
+========================================================================
+Instructions:
+  – Fill in 'Correct:' with the proper title (no .pdf extension).
+  – Leave 'Correct:' blank to delete the file.
+  – For DUPLICATES, mark which copy to keep with 'KEEP' and the
+    others with 'DELETE'.
+
+────────────────────────────────────────────────────────────────────────
+[WRONG TITLE]  (15 files)
+These files have bad metadata or leftover filename artifacts.
+────────────────────────────────────────────────────────────────────────
+
+  Folder : outros
+  Current: 2024 - Goldin‐Meadow - The Mind Hidden in Our Hands.pdf
+  Correct: 
+
+  Folder : outros
+  Current: Pedro Teixeira_9148[4724].pdf
+  Correct: 
+
+  Folder : outros
+  Current: The Hand, an Organ of the Mind_ What the Manual Tells the -- edited by Zdravko Radman -- MIT Press, Cambridge, Mass, 2013 -- The MIT Press -- 9780262018845 --.pdf
+  Correct: 
+
+  Folder : antropometria
+  Current: Dialnet EstimationOfAnthropometricHandMeasurementsFromRati 7654048.pdf
+  Correct: 
+
+  Folder : antropometria
+  Current: IJSAR 3153.pdf
+  Correct: 
+
+  Folder : normas
+  Current: Basic human body measurements for technological design_ISO7250.pdf
+  Correct: 
+
+  Folder : amputacao
+  Current: Global incidence of major, non-fatal amputation due to traumatic causesMcDonald_washington_0250O_17825.pdf
+  Correct: 
+
+  Folder : amputacao
+  Current: limb loss facts and statistics diabetes.6.pdf
+  Correct: 
+
+  Folder : lower-limb
+  Current: LOWER LIMB ACTIVE PROSTHETIC SYSTEMS OVERVIEW.pdf
+  Correct: 
+
+  Folder : parametrico
+  Current: AAD Algorithms-Aided Design_ Parametric Strategies using Grasshopper (2014, Le Penseur) - libgen.li.pdf
+  Correct: 
+
+  Folder : parametrico
+  Current: Parametric design and three-dimensional printing enabling Occupational therapists to develop custom (3).pdf
+  Correct: 
+
+  Folder : parametrico
+  Current: parametric design of a 3D printable hand prosthesis for children in developing ountrieMaster Thesis Monica Moreo 4398661.pdf
+  Correct: 
+
+  Folder : prosthetics-control
+  Current: Sensory feedback from a prosthetic hand based on air-mediated pressure from the hand to the forearm skin. [201.pdf
+  Correct: 
+
+  Folder : 3dprinting-prosthetics
+  Current: A U Iwuoha - Design and 3d-printing of a body-powered prosthetic limb for amputee.pdf
+  Correct: 
+
+  Folder : reabilitacao
+  Current: Handbook of Return to Work_ From Research to Practice -- Izabela Z_ Schultz, Robert J_ Gatchel (eds_) -- Handbooks in Health, Work, and Disability, -- 9781489976260 --.pdf
+  Correct: 
+
+────────────────────────────────────────────────────────────────────────
+[SKIPPED (never renamed)]  (2 files)
+These files kept their original garbled/slug name.
+────────────────────────────────────────────────────────────────────────
+
+  Folder : antropometria
+  Current: An-introductory- study-of-common-grasps-used-by-adults-during-performance-of-activities-of-daily-iving.pdf
+  Correct: 
+
+  Folder : normas
+  Current: standars-for-prosthetics-part1.pdf
+  Correct: 
+
+────────────────────────────────────────────────────────────────────────
+[TRUNCATED (title cut off)]  (19 files)
+These files have titles that appear to end mid-sentence.
+────────────────────────────────────────────────────────────────────────
+
+  Folder : prosthetics-design
+  Current: Anthropomorphic tendon driven robotic hands can exceed human grasping capabilities following.pdf
+  Correct: 
+
+  Folder : prosthetics-design
+  Current: Upper limb prostheses bridging the sensory gap.pdf
+  Correct: 
+
+  Folder : outros
+  Current: An exploration of the other side of semantic communication How the.pdf
+  Correct: 
+
+  Folder : outros
+  Current: Digital Conversion on the Way to Industry 4.0.pdf
+  Correct: 
+
+  Folder : antropometria
+  Current: HAND ANTHROPOMETRIC MEASUREMENT AND GRIP STRENGTH FOR BASKETBALL AND.pdf
+  Correct: 
+
+  Folder : antropometria
+  Current: Hand anthropometry and its.pdf
+  Correct: 
+
+  Folder : colaboracao
+  Current: Rethinking designer agency A case study of co-creation between designers and AI.pdf
+  Correct: 
+
+  Folder : colaboracao
+  Current: The challenge of citizens’ participation in.pdf
+  Correct: 
+
+  Folder : amputacao
+  Current: CONSEQUÊNCIAS DA AMPUTAÇÃO DE MEMBROS NA QUALIDADE DE.pdf
+  Correct: 
+
+  Folder : amputacao
+  Current: Future Projections of Diabetes-Related Amputations in Eastern Saudi Arabia During 2022–2045 Using a Va.pdf
+  Correct: 
+
+  Folder : amputacao
+  Current: Global Trends in Incidence of.pdf
+  Correct: 
+
+  Folder : amputacao
+  Current: escalas de Qualidade de Vida Após Amputação Major do.pdf
+  Correct: 
+
+  Folder : prosthetics-control
+  Current: Artificial Intelligence in Prosthetics and.pdf
+  Correct: 
+
+  Folder : 3dprinting-prosthetics
+  Current: Design and fabrication of a 3d printed myoelectric prosthetic arm.pdf
+  Correct: 
+
+  Folder : reabilitacao
+  Current: A systematic literature review of the effect of different prosthetic components on human functioning with a low.pdf
+  Correct: 
+
+  Folder : reabilitacao
+  Current: Exploring the barriers and facilitators to community reintegration for adults following traumatic up.pdf
+  Correct: 
+
+  Folder : reabilitacao
+  Current: Functional performance, participation and autonomy after discharge from prosthetic rehabilitation barriers, f.pdf
+  Correct: 
+
+  Folder : reabilitacao
+  Current: Introducing an adjustable upper limb prosthesis into a Ugandan clinical service impacts on free living behaviour and prosthetic us.pdf
+  Correct: 
+
+  Folder : reabilitacao
+  Current: Introducing an adjustable upper limb prosthesis into a Ugandan clinical service impacts on free living behaviour and prosthetic use.pdf
+  Correct: 
+
+────────────────────────────────────────────────────────────────────────
+[NOT MATCHED IN MENDELEY]  (44 files)
+These PDFs could not be matched to any Mendeley library entry.
+Either the file is not in Mendeley yet, or the filename differs too
+much from the stored title. Add to Mendeley and/or rename the file.
+────────────────────────────────────────────────────────────────────────
+
+  Folder : 3dprinting-prosthetics
+  Current: Design and fabrication of a 3d printed myoelectric prosthetic arm.pdf
+  Action :
+
+  Folder : 3dprinting-prosthetics
+  Current: Evaluating clearance parameters of 3D printed joints for the automated design of a non-assembly delta robot.pdf
+  Action :
+
+  Folder : amputacao
+  Current: Incidence and causes of lower-limb amputations.pdf
+  Action :
+
+  Folder : antropometria
+  Current: 2D and 3D anatomical analyses of hand dimensions for custom-made gloves.pdf
+  Action :
+
+  Folder : antropometria
+  Current: 2D and 3D anatomical analyses of hand dimensions for custom-made gloves (2).pdf
+  Action :
+
+  Folder : antropometria
+  Current: AWE 108 International Anthropometric Data for Work-Place and Machinary Design.pdf
+  Action :
+
+  Folder : antropometria
+  Current: AWE 108 International Anthropometric Data for Work-Place and Machinary Design (2).pdf
+  Action :
+
+  Folder : antropometria
+  Current: Anthropometric Data Analytics a Portuguese Case Study.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Anthropometric Detailed Data Tables.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Biometric analysis hand parameters in young.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Establishing an anthropometric database A case for the Portuguese working population.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Establishing an anthropometric database A case for the Portuguese working population (2).pdf
+  Action :
+
+  Folder : antropometria
+  Current: Estimation of anthropometric hand measurements using the ratio scaling method for the design of sewn gloves.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Estimation of anthropometric hand measurements using the ratio scaling method for the design of sewn gloves (2).pdf
+  Action :
+
+  Folder : antropometria
+  Current: Estimation-of-anthropometric-hand-measurements-using-the-ratio-scaling-method-for-the-design-of-sewn-gloves.pdf
+  Action :
+
+  Folder : antropometria
+  Current: HAND ANTHROPOMETRIC MEASUREMENT AND GRIP STRENGTH FOR BASKETBALL AND VOLLEYBALL PLAYERS IN HIGHER INSTITUTIONS IN PORT HARCOURT METROPOLIS.pdf
+  Action :
+
+  Folder : antropometria
+  Current: HAND ANTHROPOMETRIC MEASUREMENT AND GRIP STRENGTH FOR BASKETBALL AND.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Hand Anthropometry and Its Application to Design.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Hand anthropometry and its.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Hand anthropometry of Indian women.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Handgrip strength and hand dimensions in high-level.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Normative data for the anthropometric hand dimensions of the Mexican population.pdf
+  Action :
+
+  Folder : antropometria
+  Current: The Use of Factor Analysis in the Development of Hand Sizes for Glove Design.pdf
+  Action :
+
+  Folder : antropometria
+  Current: Vista de Estimación de medidas antropom...tir del método de relaciones de escala.pdf
+  Action :
+
+  Folder : colaboracao
+  Current: The challenge of citizens' participation in.pdf
+  Action :
+
+  Folder : normas
+  Current: ISO 8549 1 2020.pdf
+  Action :
+
+  Folder : normas
+  Current: ISO 8549 3 2020.pdf
+  Action :
+
+  Folder : normas
+  Current: Part 2 IMPLEMENTATION MANUAL.pdf
+  Action :
+
+  Folder : normas
+  Current: standars-for-prosthetics-part1.pdf
+  Action :
+
+  Folder : outros
+  Current: An exploration of the other side of semantic communication How the.pdf
+  Action :
+
+  Folder : outros
+  Current: DIGITAL IMPLICATIONS IN THE SUCCESS OF PROSTHETIC RESTORATIONS.pdf
+  Action :
+
+  Folder : outros
+  Current: The Anthropology and Social.pdf
+  Action :
+
+  Folder : parametrico
+  Current: A New Automatic Process Based on Generative Design for CAD Modeling and Manufacturing of Customized Orthosis.pdf
+  Action :
+
+  Folder : parametrico
+  Current: A New Automatic Process Based on Generative Design for CAD Modeling and Manufacturing of Customized Orthosis (2).pdf
+  Action :
+
+  Folder : parametrico
+  Current: Exploring Generative Design Thinking for Engineering Design and Design Education.pdf
+  Action :
+
+  Folder : parametrico
+  Current: Parametric Modelling for Personalized Prosthetics - Report.pdf
+  Action :
+
+  Folder : prosthetics-control
+  Current: Artificial Intelligence in Prosthetics and.pdf
+  Action :
+
+  Folder : prosthetics-design
+  Current: A lightweight prosthetic hand with 19-DOF dexterity and human-level functions.pdf
+  Action :
+
+  Folder : prosthetics-design
+  Current: Anthropomorphic Robotic Hand Prosthesis Developed for Children.pdf
+  Action :
+
+  Folder : prosthetics-design
+  Current: Development and Optimization of a Low-Cost Myoelectric Upper Limb Prosthesis.pdf
+  Action :
+
+  Folder : prosthetics-design
+  Current: Development of an Upper Limb Myoelectric Prothesis in FlexibleHybrid Material, for Application in Young Patients.pdf
+  Action :
+
+  Folder : prosthetics-design
+  Current: The lightweight Delft Cylinder Hand.pdf
+  Action :
+
+  Folder : prosthetics-user
+  Current: Avoiding Product Abandonment Through User Centered Design.pdf
+  Action :
+
+────────────────────────────────────────────────────────────────────────
+[NOT ENRICHED VIA CROSSREF]  (9 unique titles, 13 occurrences)
+These files are in Mendeley but CrossRef returned no metadata match.
+Check DOI manually and update Mendeley, or enrich metadata by hand.
+Note: entries marked (→ see above) are already tracked in another section.
+────────────────────────────────────────────────────────────────────────
+
+  Folder : 3dprinting-prosthetics
+  Title  : Additive Manufacturing for Economical, User-Accessible Upper-limb Prosthetics
+  Note   : duplicate file — appears twice; fix DOI in Mendeley
+
+  Folder : 3dprinting-prosthetics
+  Title  : Co-designing for Healthcare — Visual Designers as Researchers and Facilitators
+  Note   : conference paper, likely not indexed in CrossRef
+
+  Folder : antropometria
+  Title  : Handbook of Human Factors and Ergonomics
+  Note   : book — CrossRef has limited book coverage; add ISBN manually
+
+  Folder : colaboracao
+  Title  : Innovating alongside designers
+  Note   : DOI in Mendeley malformed (http// prefix); fix DOI
+
+  Folder : lower-limb
+  Title  : Passive Dynamic System for Energy Returning on Transtibial Prosthesis
+  Note   : verify DOI and add to Mendeley manually
+
+  Folder : parametrico
+  Title  : Algorithms Aided Design — Parametric Strategies Using Grasshopper
+  Note   : (→ see WRONG TITLE) book with garbled filename; add ISBN manually
+
+  Folder : parametrico
+  Title  : Parametric design of a 3D printable hand prosthesis for children in developing countries
+  Note   : (→ see WRONG TITLE) MSc thesis, not indexed in CrossRef
+
+  Folder : prosthetics-control
+  Title  : Turning Science Fiction into Reality — Enhanced Motor Learning for Prosthetic Limbs
+  Note   : verify DOI and add to Mendeley manually
+
+  Folder : prosthetics-design
+  Title  : The KIT Prosthetic Hand — Design and Control
+  Note   : verify DOI and add to Mendeley manually
+
+  Folder : reabilitacao
+  Title  : Facilitating Continuity — Exploring the Role of Digital Technology in Physical Rehabilitation
+  Note   : (→ see TRUNCATED + DUPLICATES) DOI in Mendeley is truncated (10.1145/1868914.186892)
+
+  Folder : amputacao
+  Title  : Global incidence of major, non-fatal amputation due to traumatic causes
+  Note   : (→ see WRONG TITLE) garbled filename; fix filename and DOI
+
+────────────────────────────────────────────────────────────────────────
+[DUPLICATES (collision suffix)]  (15 files)
+Two or more files had the same title. Check which to keep/delete/merge.
+────────────────────────────────────────────────────────────────────────
+
+  Folder : prosthetics-design
+  Current: A review of technology, materials and R&D challenges of upper limb prosthesis for improved user suitability (2).pdf
+  Correct: 
+
+  Folder : antropometria
+  Current: 2D and 3D anatomical analyses of hand dimensions for custom-made gloves (2).pdf
+  Correct: 
+
+  Folder : antropometria
+  Current: AWE 108 International Anthropometric Data for Work-Place and Machinary Design (2).pdf
+  Correct: 
+
+  Folder : antropometria
+  Current: Establishing an anthropometric database A case for the Portuguese working population (2).pdf
+  Correct: 
+
+  Folder : antropometria
+  Current: Estimation of anthropometric hand measurements using the ratio scaling method for the design of sewn gloves (2).pdf
+  Correct: 
+
+  Folder : amputacao
+  Current: The global burden of traumatic amputation in 204 countries and territories (2).pdf
+  Correct: 
+
+  Folder : prosthetics-user
+  Current: Towards Including End-Users in the Design of Prosthetic Hands Ethical Analysis of a Survey of Australians with Upper-Limb Difference (2).pdf
+  Correct: 
+
+  Folder : parametrico
+  Current: A New Automatic Process Based on Generative Design for CAD Modeling and Manufacturing of Customized Orthosis (2).pdf
+  Correct: 
+
+  Folder : parametrico
+  Current: Development of Parametric Prostheses for Different Levels of Human Hand Amputations Manufactured Through Additive Manufacturing (2).pdf
+  Correct: 
+
+  Folder : parametrico
+  Current: Development of Parametric Prostheses for Different Levels of Human Hand Amputations Manufactured Through Additive Manufacturing (3).pdf
+  Correct: 
+
+  Folder : parametrico
+  Current: Enhancing mobility with customized prosthetic designs driven by genetic algorithms (2).pdf
+  Correct: 
+
+  Folder : parametrico
+  Current: Parametric design and three-dimensional printing enabling Occupational therapists to develop custom (2).pdf
+  Correct: 
+
+  Folder : prosthetics-control
+  Current: An Anthropomorphic Upper Extremity Design Based on the Responses Generated by Electromyography Using 3D Technology (2).pdf
+  Correct: 
+
+  Folder : 3dprinting-prosthetics
+  Current: Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses Bibliometric Analysis and Scoping Review (2).pdf
+  Correct: 
+
+  Folder : reabilitacao
+  Current: Facilitating continuity exploring the role of digital technology in physical rehabilitation (2).pdf
+  Correct: 
+

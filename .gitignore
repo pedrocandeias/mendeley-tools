@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.tmp.pdf
+
+# PDFs and research files (not versioned)
+*.pdf
+*.zip
+*.f3d
+*.webp
+*.csv
+
+# Folders with research material
+prosthetics-design/
+3dprinting-prosthetics/
+antropometria/
+amputacao/
+reabilitacao/
+parametrico/
+prosthetics-user/
+colaboracao/
+prosthetics-control/
+outros/
+lower-limb/
+normas/
+Modelos\ de\ proteses/
+Diagramas/
+capitulos/
