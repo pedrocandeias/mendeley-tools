@@ -1,0 +1,1360 @@
+{
+  "3d printed orthoses and prostheses for people with physical disability in rehabilitation centers a scopi": {
+    "found": true,
+    "title": "3D-printed orthoses and prostheses for people with physical disability in rehabilitation centers: a scoping review",
+    "year": 2024,
+    "doi": "10.1186/s12891-024-07875-3",
+    "authors": [
+      "Juarez de Souza Pereira",
+      "Amanda Xavier",
+      "Ricardo da Silva Monteiro",
+      "Vanessa Vianna Cruz",
+      "Manoel Francisco de Souza Pereira",
+      "A. Tholl",
+      "Jonas Felisbino",
+      "Wiliam César Alves Machado"
+    ],
+    "abstract": "The World Health Organization points out that, by 2030, two billion people will need at least one assistive product. 3D printing can be used to meet the demands when dispensing these products. This re",
+    "match_score": 0.82
+  },
+  "a paediatric 3d printed soft robotic hand prosthesis for children with upper limb loss": {
+    "found": true,
+    "title": "A Paediatric 3D-Printed Soft Robotic Hand Prosthesis for Children with Upper Limb Loss",
+    "year": 2020,
+    "doi": "10.1109/EMBC44109.2020.9176848",
+    "authors": [
+      "A. Mohammadi",
+      "Jim Lavranos",
+      "Y. Tan",
+      "Peter Choong",
+      "D. Oetomo"
+    ],
+    "abstract": "Designing prosthetic hands for children is challenging due to the limited space for electronics and the need of reducing the cost to cater for the constant growth of their hand. In this paper, we prop",
+    "match_score": 1.0
+  },
+  "a practical 3d printed soft robotic prosthetic hand with multi articulating capabilities": {
+    "found": true,
+    "title": "A practical 3D-printed soft robotic prosthetic hand with multi-articulating capabilities",
+    "year": 2020,
+    "doi": "10.1371/journal.pone.0232766",
+    "authors": [
+      "A. Mohammadi",
+      "Jim Lavranos",
+      "Hao Zhou",
+      "R. Mutlu",
+      "G. Alici",
+      "Y. Tan",
+      "Peter Choong",
+      "D. Oetomo"
+    ],
+    "abstract": "Soft robotic hands with monolithic structure have shown great potential to be used as prostheses due to their advantages to yield light weight and compact designs as well as its ease of manufacture. H",
+    "match_score": 1.0
+  },
+  "additive manufacturing for economical user accessible upper limb prosthetics": {
+    "found": true,
+    "title": "Additive Manufacturing for Economical, User-Accessible Upper-limb Prosthetics",
+    "year": 2017,
+    "doi": null,
+    "authors": [
+      "Collin Baker",
+      "Denikka Brent",
+      "Charles Wilson",
+      "Jia-jie Xu",
+      "Lara A Thompson"
+    ],
+    "abstract": "Objective: The purpose of this paper is to briefly describe the initial stages of our efforts towards the development of easy to manufacture, low-cost, three-dimensional (3D) printed prosthetics. Spec",
+    "match_score": 1.0
+  },
+  "an affordable ai driven and 3d printed personalized myoelectric prosthesis design development and assessment": {
+    "found": true,
+    "title": "An Affordable AI-Driven and 3D-Printed Personalized Myoelectric Prosthesis: Design, Development, and Assessment",
+    "year": 2025,
+    "doi": "10.1109/ACCESS.2025.3596475",
+    "authors": [
+      "Enzo Romero",
+      "Jose G. Garcia",
+      "Magno Parra",
+      "Sebastian Caballa",
+      "Alejandro M. Saldarriaga",
+      "E. F. Luque",
+      "Dante Rodriguez",
+      "Victoria E. Abarca",
+      "Dante A. Elías"
+    ],
+    "abstract": "Upper-limb amputations significantly affect independence and quality of life, particularly in low-income regions where advanced prosthetic technology is costly and lacks adequate personalization. Conv",
+    "match_score": 1.0
+  },
+  "design and fabrication of a 3d printed myoelectric prosthetic arm": {
+    "found": true,
+    "title": "Design and fabrication of low-cost prosthetic arm",
+    "year": 2024,
+    "doi": "10.1063/5.0192243",
+    "authors": [
+      "K. Chhari",
+      "U. Raj",
+      "A. Galav",
+      "Md. J. K. Dhrubo",
+      "M. Santhosh",
+      "Md. E. Rahi",
+      "M. Singh"
+    ],
+    "abstract": "In this research paper, a wearable vigorous low-cost 3D printed prosthetic arm has been designed and fabricated for an amputee with a lost transradial or below the elbow prosthesis. An experimental te",
+    "match_score": 0.57
+  },
+  "design of 3d printed smart material compatible hand prosthesis": {
+    "found": true,
+    "title": "Design of 3D printed smart material compatible hand prosthesis",
+    "year": 2020,
+    "doi": "10.1051/matecconf/202031801039",
+    "authors": [
+      "Abdalla M. Omar",
+      "Mohamed H. Hassan"
+    ],
+    "abstract": "Every year there are about 3500-5200 people suffering from upper limb amputations, most of which are wrist disarticulation and transcarpal. This paper investigates current upper limb prostheses and pr",
+    "match_score": 1.0
+  },
+  "development of novel 3d printed robotic prosthetic for transradial amputees": {
+    "found": true,
+    "title": "Development of novel 3D-printed robotic prosthetic for transradial amputees",
+    "year": 2016,
+    "doi": "10.1177/0309364615579317",
+    "authors": [
+      "Kendall F Gretsch",
+      "Henry D Lather",
+      "Kranti V. Peddada",
+      "C. Deeken",
+      "L. Wall",
+      "C. Goldfarb"
+    ],
+    "abstract": "Background and aim: Upper extremity myoelectric prostheses are expensive. The Robohand demonstrated that three-dimensional printing reduces the cost of a prosthetic extremity. The goal of this project",
+    "match_score": 1.0
+  },
+  "evaluating clearance parameters of 3d printed joints for the automated design of a non assembly delta robot": {
+    "found": true,
+    "title": "Evaluating clearance parameters of 3D printed joints for the automated design of a non-assembly delta robot",
+    "year": 2021,
+    "doi": "10.1109/ROBIO54168.2021.9739551",
+    "authors": [
+      "Simon A. Schiele",
+      "The Nghia Nguyen",
+      "Tim C. Lueth"
+    ],
+    "abstract": "This paper presents an automated design approach for additive manufactured non-assembly joints with the ambition to create parametrisable, fully printable mechanisms. Additive manufacturing allows the",
+    "match_score": 1.0
+  },
+  "implementation of 3d printing technology in the field of prosthetics past present and future": {
+    "found": true,
+    "title": "Implementation of 3D Printing Technology in the Field of Prosthetics: Past, Present, and Future",
+    "year": 2019,
+    "doi": "10.3390/ijerph16091641",
+    "authors": [
+      "Albert Manero",
+      "Peter Smith",
+      "John Sparkman",
+      "Matt Dombrowski",
+      "Dominique Courbin",
+      "Anna Kester",
+      "I. Womack",
+      "Albert Chi"
+    ],
+    "abstract": "There is an interesting and long history of prostheses designed for those with upper-limb difference, and yet issues still persist that have not yet been solved. Prosthesis needs for children are part",
+    "match_score": 1.0
+  },
+  "interdisciplinary based development of user friendly customized 3d printed upper limb prosthesis": {
+    "found": true,
+    "title": "Interdisciplinary-Based Development of User-Friendly Customized 3D Printed Upper Limb Prosthesis",
+    "year": 2018,
+    "doi": "10.1007/978-3-319-94947-5_88",
+    "authors": [
+      "Letícia Alcará da Silva",
+      "F. O. Medola",
+      "O. V. Rodrigues",
+      "A. C. T. Rodrigues",
+      "F. Sandnes"
+    ],
+    "abstract": "This study reports on the development of a customized transradial mechanical prosthesis for a patient with bilateral transradial amputation, with a design process involving interdisciplinary project c",
+    "match_score": 1.0
+  },
+  "polymer prosthetic hand with finger copies for persons with congenital defects or after amputation using 3d printing technology": {
+    "found": true,
+    "title": "Polymer Prosthetic Hand with Finger Copies for Persons with Congenital Defects or After Amputation Using 3D Printing Technology",
+    "year": 2025,
+    "doi": "10.3390/polym17141983",
+    "authors": [
+      "Anna Włodarczyk-Fligier",
+      "Magdalena Polok-Rubiniec",
+      "A. Kania",
+      "Sebastian Jakubik",
+      "Jakub Painta",
+      "Justyna Ryś",
+      "J. Wieczorek",
+      "Marta Marianek",
+      "Agata Ociepka",
+      "Mikołaj Micuła",
+      "Jakub Osuch"
+    ],
+    "abstract": "The research presented in this paper focuses on the utilization of 3D printing technology in the design and manufacture of a prosthetic hand, equipped with a digit replicator. The subject of this stud",
+    "match_score": 1.0
+  },
+  "practical design of an upper prosthetic limb using three dimensional printer with an artificial intelligence based controller": {
+    "found": true,
+    "title": "Practical Design of an Upper Prosthetic Limb Using Three Dimensional Printer with an Artificial Intelligence Based Controller",
+    "year": 2022,
+    "doi": "10.1109/ICEMIS56295.2022.9914291",
+    "authors": [
+      "A. Elbreki",
+      "Safa Ramdan",
+      "F. Mohamed",
+      "Khadija Alshari",
+      "Zakariya Rajab",
+      "B. Elhub"
+    ],
+    "abstract": "A noticeable rate of people suffer from a disability due to war and other reasons. One group of disabled people is those who have lost their arms, which makes it challenging to perform basic tasks. Th",
+    "match_score": 1.0
+  },
+  "review of robotic prostheses manufactured with 3d printing advances challenges and future perspectives": {
+    "found": true,
+    "title": "Review of Robotic Prostheses Manufactured with 3D Printing: Advances, Challenges, and Future Perspectives",
+    "year": 2025,
+    "doi": "10.3390/app15031350",
+    "authors": [
+      "Maxwell Salazar",
+      "Paola Portero",
+      "Marcelo Zambrano",
+      "Ricardo Rosero"
+    ],
+    "abstract": "Three-dimensional printing has significantly transformed the design and manufacture of robotic prostheses, making these devices more accessible, customized, and functional. This paper examines the his",
+    "match_score": 1.0
+  },
+  "shaping the future of upper extremity prostheses through 3d printing": {
+    "found": true,
+    "title": "Shaping the Future of Upper Extremity Prostheses Through 3D Printing",
+    "year": 2025,
+    "doi": "10.3390/prosthesis7020039",
+    "authors": [
+      "Said Dababneh",
+      "N. Dababneh",
+      "Chenrui Xie",
+      "Hanna Henchi",
+      "J. I. Efanov"
+    ],
+    "abstract": "Introduction: Additive manufacturing has emerged as a promising solution for improving the accessibility and affordability of upper limb prostheses. Despite the growing need, traditional prosthetic de",
+    "match_score": 1.0
+  },
+  "adult acquired major upper limb amputation in norway prevalence demographic features and amputation specific features a population based survey": {
+    "found": true,
+    "title": "Adult acquired major upper limb amputation in Norway: prevalence, demographic features and amputation specific features. A population-based survey",
+    "year": 2011,
+    "doi": "10.3109/09638288.2010.541973",
+    "authors": [
+      "Kristin Østlie",
+      "O. Skjeldal",
+      "Beate Garfelt",
+      "P. Magnus"
+    ],
+    "abstract": "Purpose. To estimate the prevalence of adult acquired major upper limb amputation in Norway. To describe this amputee population regarding demographic features and amputation specific features. To com",
+    "match_score": 1.0
+  },
+  "as amputações realizadas em portugal de 2000 a 2023 revsalus": {
+    "found": true,
+    "title": "As Amputações Realizadas Em Portugal de 2000 a 2023 - Análise de uma Realidade",
+    "year": 2025,
+    "doi": "10.51126/x3292g83",
+    "authors": [],
+    "abstract": "Introdução: Com a evolução da tecnologia associada à Reabilitação Física (técnicas, materiais, componentes e formação) surgem inúmeras soluções protésicas. Estas novas soluções tecnológicas auxiliam a",
+    "match_score": 0.71
+  },
+  "consequências da amputação de membros na qualidade de": {
+    "found": true,
+    "title": "Consequências da amputação de membros na qualidade de vida de pacientes diabéticos: uma revisão integrativa",
+    "year": 2025,
+    "doi": "10.22169/revsed.v19n30.1500",
+    "authors": [
+      "Leonardo Magela Lopes Matoso"
+    ],
+    "abstract": "O diabetes mellitus é uma doença crônica que pode levar a amputações não traumáticas. Ser diabético e amputado afeta todos os aspectos da vida, como o social, o econômico, o psicológico e o familiar. ",
+    "match_score": 0.5
+  },
+  "caracterização psicossocial de uma população portuguesa de amputados do membro inferior": {
+    "found": true,
+    "title": "Ajustamento Psicossocial, Restrição nas Atividades Físicas e Funcionais e Satisfação com a Prótese de Amputados de Membro Inferior",
+    "year": 2022,
+    "doi": "10.18316/sdh.v10i3.8216",
+    "authors": [
+      "Greicy Kelly Wosniak Pires",
+      "Diego Rodrigues Pimentel da Silva",
+      "Lisiane Piazza Luza",
+      "Elizandra Gonçalves Ferreira",
+      "Patrícia Domingos dos Santos",
+      "Paulo José Barbosa Gutierres Filho",
+      "Rudney da Silva"
+    ],
+    "abstract": "Objetivo: avaliar o ajustamento psicossocial, restrição à realização de atividades físicas e funcionais e satisfação com a prótese de amputados de membro inferior.Materiais e Métodos: estudo transvers",
+    "match_score": 0.31
+  },
+  "chronic pain associated with upper limb loss": {
+    "found": true,
+    "title": "Chronic Pain Associated with Upper-Limb Loss",
+    "year": 2009,
+    "doi": "10.1097/PHM.0b013e3181b306ec",
+    "authors": [
+      "M. Hanley",
+      "D. Ehde",
+      "M. Jensen",
+      "J. Czerniecki",
+      "Douglas G. Smith",
+      "L. Robinson"
+    ],
+    "abstract": "Hanley MA, Ehde DM, Jensen M, Czerniecki J, Smith DG, Robinson LR: Chronic pain associated with upper-limb loss. Objective: To describe the prevalence, intensity, and functional impact of the followin",
+    "match_score": 1.0
+  },
+  "determinant causes of limb amputation in ethiopia a systematic review and meta analysis": {
+    "found": true,
+    "title": "Determinant Causes of Limb Amputation in Ethiopia: A Systematic Review and Meta-Analysis",
+    "year": 2023,
+    "doi": "10.4314/ejhs.v33i5.19",
+    "authors": [
+      "Bickes Wube Sume",
+      "S. A. Geneti"
+    ],
+    "abstract": "Background Most amputees suffered from lack of rehabilitation services and went on streets as glorified beggars. However, there is a paucity of information about determinant causes of amputation in Et",
+    "match_score": 1.0
+  },
+  "estimating recent us limb loss prevalence and updating future projections": {
+    "found": true,
+    "title": "Estimating Recent US Limb Loss Prevalence and Updating Future Projections",
+    "year": 2024,
+    "doi": "10.1016/j.arrct.2024.100376",
+    "authors": [
+      "Julio A. Rivera",
+      "Kara Churovich",
+      "Ashley B Anderson",
+      "Benjamin K. Potter"
+    ],
+    "abstract": "",
+    "match_score": 1.0
+  },
+  "estimating the prevalence of limb loss in the united states_": {
+    "found": true,
+    "title": "Estimating Recent US Limb Loss Prevalence and Updating Future Projections",
+    "year": 2024,
+    "doi": "10.1016/j.arrct.2024.100376",
+    "authors": [
+      "Julio A. Rivera",
+      "Kara Churovich",
+      "Ashley B Anderson",
+      "Benjamin K. Potter"
+    ],
+    "abstract": "",
+    "match_score": 0.44
+  },
+  "estimating the prevalence of limb loss in the united states 2005 to 2050": {
+    "found": true,
+    "title": "Estimating the prevalence of limb loss in the United States: 2005 to 2050.",
+    "year": 2008,
+    "doi": "10.1016/j.apmr.2007.11.005",
+    "authors": [
+      "Kathryn Ziegler-Graham",
+      "E. Mackenzie",
+      "P. Ephraim",
+      "T. Travison",
+      "R. Brookmeyer"
+    ],
+    "abstract": "",
+    "match_score": 1.0
+  },
+  "future projections of diabetes related amputations in eastern saudi arabia during 2022 2045 using a va": {
+    "found": true,
+    "title": "Future Projections of Diabetes-Related Amputations in Eastern Saudi Arabia During 2022–2045 Using a Validated Epidemiological Model",
+    "year": 2023,
+    "doi": "10.7759/cureus.45972",
+    "authors": [
+      "Abdulkareem J Al-Quwaidhi",
+      "Essa Alsaleh"
+    ],
+    "abstract": "Introduction: Diabetes-related amputations (DRA) are associated with significant morbidity and mortality. There are limited studies on the burden of this condition and its future projections in Saudi ",
+    "match_score": 0.79
+  },
+  "global trends in incidence of lower limb amputation a review of the literature": {
+    "found": true,
+    "title": "Global Trends in Incidence of Lower Limb Amputation: A Review of the Literature",
+    "year": 2008,
+    "doi": "10.4102/SAJP.V64I1.93",
+    "authors": [
+      "L. Godlwana",
+      "T. Nadasan",
+      "T. Puckree"
+    ],
+    "abstract": "The aim of this paper was to compile a literature report on the global epidemiology of lower limb amputations. Specifically it aimed at capturing information on the incidence of traumatic and non-trau",
+    "match_score": 1.0
+  },
+  "global incidence of major non fatal amputation due to traumatic causesmcdonald_washington_0250o_17825": {
+    "found": true,
+    "title": "Global prevalence of traumatic non-fatal limb amputation.",
+    "year": 2020,
+    "doi": "10.1177/0309364620972258",
+    "authors": [
+      "Cody L McDonald",
+      "Sarah Westcott-McCoy",
+      "M. Weaver",
+      "J. Haagsma",
+      "D. Kartin"
+    ],
+    "abstract": "BACKGROUND\n\nReliable information on both global need for prosthetic services and the current prosthetist workforce is limited. Global burden of disease estimates can provide valuable insight into ampu",
+    "match_score": 0.56
+  },
+  "global prevalence of traumatic non fatal limb amputation": {
+    "found": true,
+    "title": "Global prevalence of traumatic non-fatal limb amputation.",
+    "year": 2020,
+    "doi": "10.1177/0309364620972258",
+    "authors": [
+      "Cody L McDonald",
+      "Sarah Westcott-McCoy",
+      "M. Weaver",
+      "J. Haagsma",
+      "D. Kartin"
+    ],
+    "abstract": "BACKGROUND\n\nReliable information on both global need for prosthetic services and the current prosthetist workforce is limited. Global burden of disease estimates can provide valuable insight into ampu",
+    "match_score": 1.0
+  },
+  "global regional and national burden of traumatic amputations from 1990 to 2021 a systematic analysis of the global burden of disease study 2021": {
+    "found": true,
+    "title": "Global, regional and national burden of traumatic amputations from 1990 to 2021: a systematic analysis of the Global Burden of Disease study 2021",
+    "year": 2025,
+    "doi": "10.3389/fpubh.2025.1583523",
+    "authors": [
+      "Baixing Wei",
+      "Jie Zhang",
+      "Yuan-Pei Cheng",
+      "Hanning Wu"
+    ],
+    "abstract": "Background Traumatic amputations are serious public health problems with enormous health and economic costs, but to date there has been little research on the epidemiology of traumatic amputations. We",
+    "match_score": 1.0
+  },
+  "incidence and causes of lower limb amputations": {
+    "found": true,
+    "title": "Incidence and causes of lower-limb amputations in the city of Ribeirão Preto from 1985 to 2008: evaluation of the medical records from 3,274 cases.",
+    "year": 2016,
+    "doi": "10.1590/1980-5497201600020009",
+    "authors": [
+      "B. Barbosa",
+      "R. Monteiro",
+      "Lucas Françolin Sparano",
+      "Rodolfo Bareiro",
+      "A. Passos",
+      "E. Engel"
+    ],
+    "abstract": "OBJECTIVE\n\nIt was to identify trends of traumatic and non-traumatic causes of lower limb amputations, as well as the role played by population aging, traffic violence increase, public health policy of",
+    "match_score": 0.31
+  },
+  "limb loss facts and statistics diabetes mellitus and vascular insufficiency a real harbinger of major limb amputations a cross sectional study among amputees reporting to a tertiary care center": {
+    "found": true,
+    "title": "Limb Loss: Facts and statistics – Diabetes mellitus and vascular insufficiency, a real harbinger of major limb amputations – A cross-sectional study among amputees reporting to a tertiary care center",
+    "year": 2023,
+    "doi": "10.4103/jodp.jodp_42_23",
+    "authors": [
+      "Sukhil Raina",
+      "Shriya Bhat",
+      "Rohit Raina",
+      "Jatin Bhalla",
+      "A. Chaudhari"
+    ],
+    "abstract": "Background: Limb loss to amputation is a major problem, especially in developing countries where the majority of the cases are preventable. It is a burden, not just for the patient but also for their ",
+    "match_score": 1.0
+  },
+  "major limb amputations etiological and clinical profile in a hospital in sub saharan africa": {
+    "found": true,
+    "title": "Epidemiological and Clinical Profile of Lower Limb Amputations at the Regional Hospital of Sikasso, Mali",
+    "year": 2026,
+    "doi": "10.22271/ortho.2026.v12.i1b.3891",
+    "authors": [
+      "Layes Touré",
+      "Terna Traoré",
+      "Aliou Bah",
+      "Ibrahima Djiré",
+      "M. Berthé",
+      "C. Sanogo"
+    ],
+    "abstract": "Lower limb amputation remains a frequent and serious condition in sub-Saharan Africa, where traumatic injuries and infections are common etiologies and often associated with delayed care and high morb",
+    "match_score": 0.5
+  },
+  "musculoskeletal pain and overuse syndromes in adult acquired major upper limb amputees": {
+    "found": true,
+    "title": "Musculoskeletal pain and overuse syndromes in adult acquired major upper-limb amputees.",
+    "year": 2011,
+    "doi": "10.1016/j.apmr.2011.06.026",
+    "authors": [
+      "Kristin Ostlie",
+      "R. J. Franklin",
+      "O. Skjeldal",
+      "A. Skrondal",
+      "P. Magnus"
+    ],
+    "abstract": "",
+    "match_score": 1.0
+  },
+  "psychiatric understanding and treatment of patients with amputations": {
+    "found": true,
+    "title": "Psychiatric understanding and treatment of patients with amputations",
+    "year": 2021,
+    "doi": "10.12701/yujm.2021.00990",
+    "authors": [
+      "So-hye Jo",
+      "Suk-Hun Kang",
+      "W. Seo",
+      "B. Koo",
+      "Hye-Geum Kim",
+      "Seokho Yun"
+    ],
+    "abstract": "Amputation changes the lives of patients and their families. Consequently, the patient must adapt to altered body function and image. During this adaptation process, psychological problems, such as de",
+    "match_score": 1.0
+  },
+  "psychological effects of traumatic upper limb amputations": {
+    "found": true,
+    "title": "Psychological effects of traumatic upper-limb amputations.",
+    "year": 2020,
+    "doi": "10.1016/j.otsr.2019.12.013",
+    "authors": [
+      "G. Pomares",
+      "H. Coudane",
+      "F. Dap",
+      "G. Dautel"
+    ],
+    "abstract": "",
+    "match_score": 1.0
+  },
+  "the global burden of traumatic amputation in 204 countries and territories": {
+    "found": true,
+    "title": "The global burden of traumatic amputation in 204 countries and territories",
+    "year": 2023,
+    "doi": "10.3389/fpubh.2023.1258853",
+    "authors": [
+      "Bei Yuan",
+      "Dong Hu",
+      "Suxi Gu",
+      "Songhua Xiao",
+      "Fei Song"
+    ],
+    "abstract": "Background Traumatic amputation leads to disability and imposes a heavy health burden. This study aims to explore the current status and temporal trends of the global burden of traumatic amputation ac",
+    "match_score": 1.0
+  },
+  "the prevalence of depression and ptsd in adults with surgically managed traumatic upper": {
+    "found": true,
+    "title": "The Prevalence of Depression and PTSD in Adults With Surgically Managed Traumatic Upper-Extremity Amputations",
+    "year": 2022,
+    "doi": "10.1177/15589447221093671",
+    "authors": [
+      "S. Cohen-Tanugi",
+      "Risa T. Reid",
+      "B. Loeffler",
+      "R. G. Gaston"
+    ],
+    "abstract": "Background: Upper-extremity limb loss has been associated with serious psychological sequelae. Despite advancements in surgical procedures and prostheses for upper limb amputees, it is critical to rec",
+    "match_score": 0.8
+  },
+  "unidade de medicina física e reabilitação caracterização de uma população portuguesa de amputados revista spmfr 2025": {
+    "found": false,
+    "title": "[Psychosocial characterization of a Portuguese lower limb amputee population].",
+    "year": 2012,
+    "doi": "10.20344/AMP.27",
+    "authors": [
+      "I. Machado Vaz",
+      "V. Roque",
+      "S. Pimentel",
+      "A. Rocha",
+      "H. Duro"
+    ],
+    "abstract": "OBJECTIVE\n\nThis study aims to describe psychosocial status in lower limb amputees referred to a Physical and Rehabilitation Medicine (PRM) department of a central Portuguese Hospital.\n\nMETHODS\n\nCross-",
+    "match_score": 0.0,
+    "note": "low confidence match"
+  },
+  "escalas de qualidade de vida após amputação major do": {
+    "found": true,
+    "title": "QUALIDADE DE VIDA E NÍVEL DE ATIVIDADE FÍSICA DE AMPUTADOS",
+    "year": 2007,
+    "doi": null,
+    "authors": [
+      "J. G. Rizzo",
+      "Rudney da Silva",
+      "Soraia Cristina Tonon"
+    ],
+    "abstract": "This research had as an objective characterize and analyze the quality of life and the level of Physical Activity of amputees. The study was classified as a descriptive and diagnostic field research, ",
+    "match_score": 0.33
+  },
+  "trends in lower extremity amputation incidence in european union 15": {
+    "found": true,
+    "title": "1447 Trends in Lower Extremity Amputation Incidence in European Union 15+ Countries 1990-2017",
+    "year": 2021,
+    "doi": "10.1093/bjs/znab259.1130",
+    "authors": [
+      "R. Goodall",
+      "Will Hughes",
+      "J. Salciccioli",
+      "D. Marshall",
+      "A. Davies",
+      "J. Shalhoub"
+    ],
+    "abstract": "To assess trends in lower extremity amputation (LEA) incidence in European Union (EU15+) countries for the years 1990-2017.\n\nThis was an observational study using data obtained from the 2017 Global Bu",
+    "match_score": 0.67
+  },
+  "2d and 3d anatomical analyses of hand dimensions for custom made gloves 2": {
+    "found": true,
+    "title": "2D and 3D anatomical analyses of hand dimensions for custom-made gloves.",
+    "year": 2013,
+    "doi": "10.1016/j.apergo.2012.10.001",
+    "authors": [
+      "A. Yu",
+      "K. Yick",
+      "S. Ng",
+      "J. Yip"
+    ],
+    "abstract": "",
+    "match_score": 0.9
+  },
+  "2d and 3d anatomical analyses of hand dimensions for custom made gloves": {
+    "found": true,
+    "title": "2D and 3D anatomical analyses of hand dimensions for custom-made gloves.",
+    "year": 2013,
+    "doi": "10.1016/j.apergo.2012.10.001",
+    "authors": [
+      "A. Yu",
+      "K. Yick",
+      "S. Ng",
+      "J. Yip"
+    ],
+    "abstract": "",
+    "match_score": 1.0
+  },
+  "awe 108 international anthropometric data for work place and machinary design 2": {
+    "found": false,
+    "title": "Workplace environment of earth-moving machine operators in terms of anthropometric data development in the Slovak republic",
+    "year": 2020,
+    "doi": "10.3233/WOR-203132",
+    "authors": [
+      "M. Hitka",
+      "M. Gejdoš",
+      "R. Sedmák",
+      "Ž. Balážová"
+    ],
+    "abstract": "BACKGROUND: Population data are gathered using the sampling unit at the appropriate time and due to various reasons (e.g. nutrition survey of the population, style of living, etc.), they can be change",
+    "match_score": 0.17,
+    "note": "low confidence match"
+  },
+  "awe 108 international anthropometric data for work place and machinary design": {
+    "found": false,
+    "title": "Workplace environment of earth-moving machine operators in terms of anthropometric data development in the Slovak republic",
+    "year": 2020,
+    "doi": "10.3233/WOR-203132",
+    "authors": [
+      "M. Hitka",
+      "M. Gejdoš",
+      "R. Sedmák",
+      "Ž. Balážová"
+    ],
+    "abstract": "BACKGROUND: Population data are gathered using the sampling unit at the appropriate time and due to various reasons (e.g. nutrition survey of the population, style of living, etc.), they can be change",
+    "match_score": 0.17,
+    "note": "low confidence match"
+  },
+  "an introductory study of common grasps used by adults during performance of activities of daily living": {
+    "found": true,
+    "title": "An introductory study of common grasps used by adults during performance of activities of daily living.",
+    "year": 2014,
+    "doi": "10.1016/j.jht.2014.04.002",
+    "authors": [
+      "M. Vergara",
+      "J. Sancho-Bru",
+      "V. Gracia-Ibáñez",
+      "A. Pérez-González"
+    ],
+    "abstract": "",
+    "match_score": 1.0
+  },
+  "an introductory study of common grasps used by adults during performance of activities of daily iving": {
+    "found": true,
+    "title": "An introductory study of common grasps used by adults during performance of activities of daily living.",
+    "year": 2014,
+    "doi": "10.1016/j.jht.2014.04.002",
+    "authors": [
+      "M. Vergara",
+      "J. Sancho-Bru",
+      "V. Gracia-Ibáñez",
+      "A. Pérez-González"
+    ],
+    "abstract": "",
+    "match_score": 0.91
+  },
+  "anthropometric data analytics a portuguese case study": {
+    "found": false,
+    "title": "Human systems engineering approach for safety and risk management of complex systems design",
+    "year": 2016,
+    "doi": "10.1201/B21172-11",
+    "authors": [
+      "T. Ahram",
+      "W. Karwowski",
+      "C. Falcão"
+    ],
+    "abstract": "The most significant Portuguese anthropometric study consisted of a survey of anthropometric data through the use of digital photo analysis method. In the study were selected 24 static body measuremen",
+    "match_score": 0.0,
+    "note": "low confidence match"
+  },
+  "anthropometric detailed data tables": {
+    "found": false,
+    "title": "Anthropometric reference data for children and adults: United States, 2007-2010.",
+    "year": 2012,
+    "doi": null,
+    "authors": [],
+    "abstract": "Objective-This report presents national anthropometric reference data for all ages of the U.S. population in 2007-2010, adding to results published previously from the years 1960-2006. Methods-Data ar",
+    "match_score": 0.22,
+    "note": "low confidence match"
+  },
+  "applied human factors and ergonomics international": {
+    "found": false,
+    "title": "Advances in Ergonomics in Design - Proceedings of the AHFE 2017 International Conference on Ergonomics in Design, July 17-21, 2017, The Westin Bonaventure Hotel, Los Angeles, California, USA",
+    "year": 2018,
+    "doi": "10.1007/978-3-319-60582-1",
+    "authors": [
+      "L. Giuliano",
+      "C. Germak",
+      "J. Giacomin"
+    ],
+    "abstract": "This book provides readers with a timely snapshot of ergonomics research and methods applied to the design, development and prototyping – as well as the",
+    "match_score": 0.11,
+    "note": "low confidence match"
+  },
+  "biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications": {
+    "found": true,
+    "title": "Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications",
+    "year": 2024,
+    "doi": "10.5115/acb.23.310",
+    "authors": [
+      "Gkionoul Nteli Chatzioglou",
+      "Y. Pınar",
+      "F. Govsa"
+    ],
+    "abstract": "This study aimed to evaluate the superficial anatomy, kinesiology, and functions of the hand to reveal its morphometry and apply the findings in various fields such as prosthetic hand and protective h",
+    "match_score": 1.0
+  },
+  "biometric analysis hand parameters in young": {
+    "found": true,
+    "title": "Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications",
+    "year": 2024,
+    "doi": "10.5115/acb.23.310",
+    "authors": [
+      "Gkionoul Nteli Chatzioglou",
+      "Y. Pınar",
+      "F. Govsa"
+    ],
+    "abstract": "This study aimed to evaluate the superficial anatomy, kinesiology, and functions of the hand to reveal its morphometry and apply the findings in various fields such as prosthetic hand and protective h",
+    "match_score": 0.5
+  },
+  "establishing an anthropometric database a case for the portuguese working population 2": {
+    "found": true,
+    "title": "Establishing an anthropometric database: A case for the Portuguese working population",
+    "year": 2023,
+    "doi": "10.1016/j.ergon.2023.103473",
+    "authors": [
+      "P.C. Anacleto Filho",
+      "Lincoln da Silva",
+      "D. Mattos",
+      "Ana Pombeiro",
+      "H. Castellucci",
+      "Ana Colim",
+      "P. Carneiro",
+      "P. Arezes"
+    ],
+    "abstract": "",
+    "match_score": 0.88
+  },
+  "establishing an anthropometric database a case for the portuguese working population": {
+    "found": true,
+    "title": "Establishing an anthropometric database: A case for the Portuguese working population",
+    "year": 2023,
+    "doi": "10.1016/j.ergon.2023.103473",
+    "authors": [
+      "P.C. Anacleto Filho",
+      "Lincoln da Silva",
+      "D. Mattos",
+      "Ana Pombeiro",
+      "H. Castellucci",
+      "Ana Colim",
+      "P. Carneiro",
+      "P. Arezes"
+    ],
+    "abstract": "",
+    "match_score": 1.0
+  },
+  "estimation of anthropometric hand measurements using the ratio scaling method for the design of sewn gloves 2": {
+    "found": true,
+    "title": "Estimation of anthropometric hand measurements using the ratio scaling method for the design of sewn gloves•",
+    "year": 2020,
+    "doi": null,
+    "authors": [
+      "Ovidio Rincón-Becerra",
+      "Gabriel García-Acosta"
+    ],
+    "abstract": "This paper describes the process for estimating the anthropometric dimensions of the hand, for the purpose of designing sewn leather gloves. Since no detailed information about hands exists in anthrop",
+    "match_score": 0.91
+  },
+  "estimation of anthropometric hand measurements using the ratio scaling method for the design of sewn gloves": {
+    "found": true,
+    "title": "Estimation of anthropometric hand measurements using the ratio scaling method for the design of sewn gloves•",
+    "year": 2020,
+    "doi": null,
+    "authors": [
+      "Ovidio Rincón-Becerra",
+      "Gabriel García-Acosta"
+    ],
+    "abstract": "This paper describes the process for estimating the anthropometric dimensions of the hand, for the purpose of designing sewn leather gloves. Since no detailed information about hands exists in anthrop",
+    "match_score": 1.0
+  },
+  "hand anthropometric measurement and grip strength for basketball and volleyball players in higher institutions in port harcourt metropolis": {
+    "found": true,
+    "title": "Evaluation of hand anthropometric measurements and grip strength in basketball, volleyball and handball players",
+    "year": 2008,
+    "doi": "10.2399/ANA.08.055",
+    "authors": [
+      "Ç. Barut"
+    ],
+    "abstract": "Objectives: This cross-sectional study was performed to compare hand anthropometric measurements and grip strength among different sports groups. Methods: The study group was composed of 145 basketbal",
+    "match_score": 0.54
+  },
+  "hand anthropometric measurement and grip strength for basketball and": {
+    "found": true,
+    "title": "Relationship of Hand Anthropometry and Hand Grip Strength in Junior Basketball Boys.",
+    "year": 2014,
+    "doi": null,
+    "authors": [
+      "Archana Chahal",
+      "B. Kumar"
+    ],
+    "abstract": "The present study was planned to collect basic data of hand anthropometry and grip strength as well as find out the association of isometric hand grip strength and various hand anthropometry in junior",
+    "match_score": 0.5
+  },
+  "hand anthropometry and its application to design": {
+    "found": true,
+    "title": "Anthropometry of the Hand and Product Design",
+    "year": 2024,
+    "doi": "10.21608/idj.2024.378407",
+    "authors": [
+      "A. Moustafa",
+      "Islam Gharib"
+    ],
+    "abstract": "Statement of the problem: Given the importance of the hand in many tasks requiring the manipulation of objects, the information gathered in this study may help in the development of a human hand anthr",
+    "match_score": 0.75
+  },
+  "hand anthropometry of indian women": {
+    "found": true,
+    "title": "Hand anthropometry of Indian women.",
+    "year": 2003,
+    "doi": null,
+    "authors": [
+      "A. Nag",
+      "P. Nag",
+      "H. Desai"
+    ],
+    "abstract": "BACKGROUND & OBJECTIVES\n\nData on the physical dimension of the hand of Indian women are scanty. This information is necessary to ascertain human-machine compatibility in the design of manual systems f",
+    "match_score": 1.0
+  },
+  "handgrip strength and hand dimensions in high level": {
+    "found": true,
+    "title": "Handgrip strength and hand dimensions in high-level inter-university judoists",
+    "year": 2013,
+    "doi": "10.12659/AOB.883826",
+    "authors": [
+      "J. Cortell-Tormo",
+      "J. Pérez-Turpin",
+      "A. Lucas-Cuevas",
+      "P. Pérez-Soriano",
+      "S. Llana-Belloch",
+      "M. Martínez-Patiño"
+    ],
+    "abstract": "Background Handgrip strength plays a major role in many sports. In Judo, a single grasp allows the judoka to attack, defend and counter-attack through different movements in a span of four to six dire",
+    "match_score": 0.67
+  },
+  "percentage difference of hand dimensions and their correlation with": {
+    "found": true,
+    "title": "Percentage difference of hand dimensions and their correlation with hand grip and pinch strength among schoolchildren in Saudi Arabia",
+    "year": 2019,
+    "doi": "10.4103/njcp.njcp_121_19",
+    "authors": [
+      "K. Alahmari",
+      "Venkata Nagaraj Kakaraparthi",
+      "R. Reddy",
+      "Paul Silvian",
+      "I. Ahmad",
+      "K. Rengaramanujam"
+    ],
+    "abstract": "Aims: The study aimed to assess the percentage difference of hand dimensions and their correlation with grip and pinch strength among school children in Saudi Arabia. Materials and Methods: Anthropome",
+    "match_score": 0.46
+  },
+  "the use of factor analysis in the development of hand sizes for glove design": {
+    "found": false,
+    "title": "Employing a three-stage procedure to develop a sizing system for medical gloves",
+    "year": 2022,
+    "doi": "10.1080/00140139.2022.2160497",
+    "authors": [
+      "Asma Zare",
+      "M. Jahangiri",
+      "M. Seif",
+      "A. Choobineh"
+    ],
+    "abstract": "Abstract There is a need for gloves that are designed based on the dimensions of the hand of each society because the proper size is a key factor that affects performance. This study aimed to design a",
+    "match_score": 0.0,
+    "note": "low confidence match"
+  },
+  "vista de estimación de medidas antropom tir del método de relaciones de escala": {
+    "found": false,
+    "title": "Estimation of anthropometric hand measurements, from ratio scaling method, for the design of sewn gloves",
+    "year": 2020,
+    "doi": "10.15446/DYNA.V87N215.87984",
+    "authors": [
+      "Ovidio Rincón Becerra",
+      "Gabriel García Acosta"
+    ],
+    "abstract": "espanolEn este articulo se presenta el proceso de estimacion de dimensiones antropometricas de las manos, para el diseno de guantes cosidos en cuero. Debido a que en los estudios antropometricos de la",
+    "match_score": 0.0,
+    "note": "low confidence match"
+  },
+  "a study of roles and collaboration in the development of assistive devices for people with disabilities by clinical experts and design experts": {
+    "found": true,
+    "title": "A Study of Roles and Collaboration in the Development of Assistive Devices for People with Disabilities by Clinical Experts and Design Experts",
+    "year": 2018,
+    "doi": "10.21606/drs.2018.379",
+    "authors": [
+      "A. Kim",
+      "Jeonghyun Kim",
+      "Daeun Hwang",
+      "O. Kweon"
+    ],
+    "abstract": "This study is part of a research program promoting the expertise of professional manpower in the Korean assistive device industry. Based on interviews with clinical and design experts, the authors dis",
+    "match_score": 1.0
+  },
+  "ai in co creation_ the usability and impact of ai tools for cocreation in participatory design to generate innovative and user centric design solution": {
+    "found": true,
+    "title": "AI in Co-Creation: The usability and impact of AI tools for co-creation in participatory design to generate innovative and user-centric design solutions",
+    "year": 2023,
+    "doi": null,
+    "authors": [
+      "Sabine Freese"
+    ],
+    "abstract": "The current study focuses on applying generative Artificial Intelligence (AI) in participatory design processes, specifically scrutinising the interactive dynamics between AI and human actors during t",
+    "match_score": 0.79
+  },
+  "clients and carers healthcare professionals roles in medical device development processes in smes": {
+    "found": true,
+    "title": "Clients and carers: Healthcare professionals’ roles in medical device development processes in SMEs",
+    "year": 2024,
+    "doi": "10.1080/14606925.2024.2420152",
+    "authors": [
+      "Harun Kaygan",
+      "P. Kaygan"
+    ],
+    "abstract": "Abstract Purpose of the article With the call for patient-centred healthcare, designers and healthcare professionals collaborate increasingly, as both health and design researchers advocate closer eng",
+    "match_score": 1.0
+  },
+  "co designing for healthcare visual designers as researchers and facilitators": {
+    "found": true,
+    "title": "Co-Designing for Healthcare: Visual Designers as Researchers and Facilitators",
+    "year": 2015,
+    "doi": null,
+    "authors": [
+      "Pamela Napier",
+      "Terri Wada"
+    ],
+    "abstract": "ABSTRACTThis article describes the process, methods, and outcomes of a project that included multiple stakeholders in a participatory design process to re-design an indispensable service in the health",
+    "match_score": 1.0
+  },
+  "design for every one co creation as a bridge between universal design and rehabilitation engineering": {
+    "found": true,
+    "title": "Design for (every)one: co-creation as a bridge between universal design and rehabilitation engineering",
+    "year": 2011,
+    "doi": "10.1080/15710882.2011.609890",
+    "authors": [
+      "Lieven De Couvreur",
+      "R. Goossens"
+    ],
+    "abstract": "Design for (every)one is a macro framework that attempts to identify, share and use ‘hidden solutions’ in community-based rehabilitation contexts and translate them into disruptive assistive devices b",
+    "match_score": 1.0
+  },
+  "designing industrial design in the highly regulated medical device development process defining our valuable contribution towards usability": {
+    "found": true,
+    "title": "Designing Industrial Design in the Highly Regulated Medical Device Development Process. Defining our valuable contribution towards usability",
+    "year": 2017,
+    "doi": "10.1080/14606925.2017.1352735",
+    "authors": [
+      "M. Privitera"
+    ],
+    "abstract": "Abstract The role of industrial design in medical device development is scantily described in literature. Yet, based on design practice in industry and as evident by design competitions, clearly indus",
+    "match_score": 1.0
+  },
+  "rethinking designer agency a case study of co creation between designers and ai": {
+    "found": true,
+    "title": "Rethinking designer agency: A case study of co-creation between designers and AI",
+    "year": 2023,
+    "doi": "10.21606/iasdr.2023.478",
+    "authors": [
+      "Xinyu Guo"
+    ],
+    "abstract": "The creativity exhibited by generative artificial intelligence (AI) has caused anxiety among some designers. This generative ability has a tremendous influence on the creative activities of designer. ",
+    "match_score": 1.0
+  },
+  "the challenge of citizens participation in": {
+    "found": false,
+    "title": "ASSESSMENT OF CITIZENS’ PARTICIPATION IN POVERTY REDUCTION PROGRAMMES IN EBONYI STATE",
+    "year": 2017,
+    "doi": null,
+    "authors": [
+      "Emmanuel Elem",
+      "O. Nwankwo"
+    ],
+    "abstract": "This study examines the challenges of citizens’ participation in poverty reduction programmes in Ebonyi State. The objectives of the study include: to find out the strategies adopted by government and",
+    "match_score": 0.25,
+    "note": "low confidence match"
+  },
+  "advancements trends and future prospects of lower limb prosthesis": {
+    "found": true,
+    "title": "Advancements, Trends and Future Prospects of Lower Limb Prosthesis",
+    "year": 2021,
+    "doi": "10.1109/ACCESS.2021.3086807",
+    "authors": [
+      "Muhammad Asif",
+      "M. Tiwana",
+      "U. S. Khan",
+      "W. S. Qureshi",
+      "J. Iqbal",
+      "N. Rashid",
+      "Noman Naseer"
+    ],
+    "abstract": "Amputees with lower limb loss need special care during daily life activities to make the movement natural as before amputation. No such work exists covering the main aspects from causes of amputation ",
+    "match_score": 1.0
+  },
+  "design and operation requirements for a foot and ankle prosthesis": {
+    "found": true,
+    "title": "Design and Operation Requirements for a Foot and Ankle Prosthesis",
+    "year": 2024,
+    "doi": "10.1109/CIEES62939.2024.10811165",
+    "authors": [
+      "Arman Uzbekbayev",
+      "Nursultan Zhetenbayev",
+      "Aidos Sultan",
+      "Kassymbek A. Ozhikenov",
+      "Teodor B. Iliev",
+      "Gani Sergazin"
+    ],
+    "abstract": "The loss of mobility due to amputation or severe damage to the ankle joint can significantly reduce a person's quality of life. The ankle joint and foot play a key role in maintaining balance, movemen",
+    "match_score": 1.0
+  },
+  "lower limb active prosthetic systems overview": {
+    "found": true,
+    "title": "Lower limb active prosthetic systems—overview",
+    "year": 2020,
+    "doi": "10.1016/b978-0-12-814659-0.00023-0",
+    "authors": [
+      "Alexandra S. Voloshina",
+      "S. Collins"
+    ],
+    "abstract": "",
+    "match_score": 1.0
+  },
+  "lower limb prosthetic technologies in the developing world a review of literature from 1994 2010": {
+    "found": true,
+    "title": "Lower-Limb Prosthetic Technologies in the Developing World: A Review of Literature from 1994–2010",
+    "year": 2010,
+    "doi": "10.3109/03093646.2010.520060",
+    "authors": [
+      "J. Andrysek"
+    ],
+    "abstract": "In the mid-1990s, a number of key publications and meetings of experts identified major technical issues associated with prosthetic technologies intended for developing countries. These included inade",
+    "match_score": 1.0
+  },
+  "passive dynamic system for energy returning on transtibial prosthesis": {
+    "found": false,
+    "title": "Characterizing the interaction effects of modular components on transtibial prosthesis stance-phase mechanical behavior",
+    "year": 2024,
+    "doi": "10.1097/PXR.0000000000000411",
+    "authors": [
+      "Seth Donahue",
+      "Miguel A. Vaca",
+      "W. Beattie",
+      "Trevor Kingsbury",
+      "Kota Z. Takahashi",
+      "Matthew J. Major"
+    ],
+    "abstract": "Background: Despite evidence that passive prosthesis mechanical properties can directly affect user experience, prosthetists have access to minimal information regarding the mechanical interactions be",
+    "match_score": 0.18,
+    "note": "low confidence match"
+  },
+  "iso 8549 1 2020": {
+    "found": false,
+    "title": "CPGAN #054 Chemical Characterization of Medical Devices: Seismic Shifts in ISO10993-18:2020",
+    "year": 2020,
+    "doi": null,
+    "authors": [],
+    "abstract": "It is a time of great change in medical device chemical risk assessments, as manufacturers who have gone through the process have undoubtedly experienced in recent years. January 2020 brought a new an",
+    "match_score": 0.09,
+    "note": "low confidence match"
+  },
+  "iso 8549 3 2020": {
+    "found": false,
+    "title": "Setting Standards: Revised ISO 5840 Series Clarifies Testing, Evaluation Procedures for Cardiac Valves.",
+    "year": 2020,
+    "doi": "10.2345/0899-8205-54.6.441",
+    "authors": [
+      "Russell Joseph",
+      "Changfu Wu",
+      "A. Yoganathan"
+    ],
+    "abstract": "Research Article| December 19 2020 SETTING STANDARDS: Revised ISO 5840 Series Clarifies Testing, Evaluation Procedures for Cardiac Valves Russ Joseph; Russ Joseph Search for other works by this author",
+    "match_score": 0.08,
+    "note": "low confidence match"
+  },
+  "iso 7250 1 basic human body measurements for technological design part 1 body measurement definitions and landmarks": {
+    "found": false,
+    "title": "An Overview of the International Standardization Efforts in Human Factors and Ergonomics",
+    "year": 2005,
+    "doi": "10.1201/9781482289671-11",
+    "authors": [
+      "B. Sherehiy",
+      "David Rodrick",
+      "W. Karwowski"
+    ],
+    "abstract": "Anthropometric design is one of the most important disciplines within the area of ergonomic approaches. With the correct anthropometry layout, products and working tools can be used safely, comfortabl",
+    "match_score": 0.08,
+    "note": "low confidence match"
+  },
+  "part 2 implementation manual": {
+    "found": false,
+    "title": "The next step - implementation",
+    "year": 2017,
+    "doi": null,
+    "authors": [
+      "A. Macleod"
+    ],
+    "abstract": "Phase Two of the Project is intended for Councils and partners to develop and implement specific projects that will mitigate the risks that have been identified in Phase One. The priority project",
+    "match_score": 0.25,
+    "note": "low confidence match"
+  },
+  "standars for prosthetics part1": {
+    "found": false,
+    "title": "International Standards Organization Terminology: Application to Prosthetics and Orthotics",
+    "year": 1994,
+    "doi": "10.1097/00008526-199400610-00006",
+    "authors": [
+      "C. Schuch",
+      "C. Pritham"
+    ],
+    "abstract": "In 1989 the International Standards Organization (ISO) adopted terms intended for descriptive use in prosthetics, orthotics and related allied health professions. Included are ISO Standard 8548-1, Pro",
+    "match_score": 0.14,
+    "note": "low confidence match"
+  },
+  "an exploration of the other side of semantic communication how the": {
+    "found": true,
+    "title": "A Theory of Semantic Communication",
+    "year": 2022,
+    "doi": "10.1109/TMC.2024.3406375",
+    "authors": [
+      "Yulin Shao",
+      "Qingqing Cao",
+      "Deniz Gündüz"
+    ],
+    "abstract": "Semantic communication is an emerging research area that has gained a wide range of attention recently. Despite this growing interest, there remains a notable absence of a comprehensive and widely-acc",
+    "match_score": 0.33
+  },
+  "digital implications in the success of prosthetic restorations": {
+    "found": true,
+    "title": "DIGITAL IMPLICATIONS IN THE SUCCESS OF PROSTHETIC RESTORATIONS",
+    "year": 2024,
+    "doi": "10.62610/rjor.2024.4.16.76",
+    "authors": [
+      "C. Cretu",
+      "Andreea Tibeica",
+      "R. Curca",
+      "Doriana Agop-Forna",
+      "Cristian Orghidan",
+      "Cosmin Ulman",
+      "Andrei Iacob",
+      "N. Forna"
+    ],
+    "abstract": "The advent of digital technologies in dentistry has revolutionized prosthetic restoration procedures, offering enhanced accuracy, efficiency, and patient satisfaction. This meta-analysis evaluates the",
+    "match_score": 1.0
+  },
+  "digital conversion on the way to industry 4 0": {
+    "found": true,
+    "title": "On the way to Industry 4.0 - Digitalization in industrial furnace manufacturing",
+    "year": 2019,
+    "doi": null,
+    "authors": [],
+    "abstract": "The way to Industry 4.0 is an evolutionary process which offers great potential for improving and stabilizing production processes and for increasing energy and resource efficiency by way of digitaliz",
+    "match_score": 0.5
+  },
+  "provedor de justiça relatório sapa": {
+    "found": false,
+    "title": "O Provedor de Justiça no contexto do dever de cooperação em Angola",
+    "year": 2024,
+    "doi": "10.4314/academicus.v2i2.6",
+    "authors": [
+      "Bruno Dala",
+      "B. Damião",
+      "Lukamba Joaquim"
+    ],
+    "abstract": "O presente estudo teve como objectivo analisar as consequências do incumprimento do dever de cooperação para a figura do Provedor de Justiça e os cidadãos, bem como, identificar a frequência de respos",
+    "match_score": 0.25,
+    "note": "low confidence match"
+  },
+  "the anthropology and social": {
+    "found": true,
+    "title": "Anthropology: The Study of Social and Cultural Originality",
+    "year": 1999,
+    "doi": "10.4314/ASR.V3I2.23164",
+    "authors": [
+      "J. Guyer"
+    ],
+    "abstract": "Abstract",
+    "match_score": 0.4
+  },
+  "the hand an organ of the mind what the manual tells the mental": {
+    "found": true,
+    "title": "The hand, an organ of the mind : what the manual tells the mental",
+    "year": 2013,
+    "doi": null,
+    "authors": [
+      "Zdravko Radman"
+    ],
+    "abstract": "Cartesian-inspired dualism enforces a theoretical distinction between the motor and the cognitive and locates the mental exclusively in the head. This collection, focusing on the hand, challenges this",
+    "match_score": 1.0
+  },
+  "the mind hidden in our hands 2024 goldin meadow": {
+    "found": true,
+    "title": "The Mind Hidden in Our Hands",
+    "year": 2024,
+    "doi": "10.1111/tops.12756",
+    "authors": [
+      "Susan Goldin-Meadow"
+    ],
+    "abstract": "Our hands are always with us and are used for communication all over the world. When children do not have an established language model to learn from, they use their hands to gesture, and these gestur",
+    "match_score": 0.57
+  },
+  "aad algorithms aided design_ parametric strategies using grasshopper 2014 le penseur libgen li": {
+    "found": false,
+    "title": "FORM-FINDING OF ARCHES",
+    "year": 2024,
+    "doi": "10.62792/ut.jas.v10.i19-20.p2745",
+    "authors": [
+      "T. Mihajlovska",
+      "Dobre Nikolovski",
+      "Аna TROMBEVA-GAVRILOSKA",
+      "Liljana DIMEVSKA SOFRONIEVSKA"
+    ],
+    "abstract": "Parametric design should not be understood as the use of computers to design and manipulate architectural form in new freeform shapes. The algorithms that guide parametric design allow architects to o",
+    "match_score": 0.0,
+    "note": "low confidence match"
+  },
+  "enhancing mobility with customized prosthetic designs driven by genetic algorithms 2": {
+    "found": true,
+    "title": "Enhancing mobility with customized prosthetic designs driven by genetic algorithms",
+    "year": 2025,
+    "doi": "10.11591/ijeecs.v38.i2.pp876-886",
+    "authors": [
+      "Senthil Kumar Seeni",
+      "G. Harshitha",
+      "Anantha Raman Rathinam",
+      "Nagaiyanallur Lakshminarayanan Venkatara",
+      "Venkatesan Sasirekha",
+      "Bharat Tidke",
+      "Subbiah Murugan"
+    ],
+    "abstract": "Using genetic algorithms, this research intends to usher in a new era of prosthetic design that is redefining mobility. Through repeated evolutionary processes influenced by natural selection, the goa",
+    "match_score": 0.89
+  },
+  "enhancing mobility with customized prosthetic designs driven by genetic algorithms": {
+    "found": true,
+    "title": "Enhancing mobility with customized prosthetic designs driven by genetic algorithms",
+    "year": 2025,
+    "doi": "10.11591/ijeecs.v38.i2.pp876-886",
+    "authors": [
+      "Senthil Kumar Seeni",
+      "G. Harshitha",
+      "Anantha Raman Rathinam",
+      "Nagaiyanallur Lakshminarayanan Venkatara",
+      "Venkatesan Sasirekha",
+      "Bharat Tidke",
+      "Subbiah Murugan"
+    ],
+    "abstract": "Using genetic algorithms, this research intends to usher in a new era of prosthetic design that is redefining mobility. Through repeated evolutionary processes influenced by natural selection, the goa",
+    "match_score": 1.0
+  },
+  "parametric modelling for personalized prosthetics report": {
+    "found": false,
+    "title": "DETC 2018-85645 CUSTOMIZATION OF A 3 D PRINTED PROSTHETIC FINGER USING PARAMETRIC MODELING",
+    "year": 2018,
+    "doi": null,
+    "authors": [
+      "Daniel Lim"
+    ],
+    "abstract": "Prosthetic limbs and assistive devices require customization to effectively meet the needs of users. Despite the expense and hassle involved in procuring a prosthetic, 56% of people with limb loss end",
+    "match_score": 0.09,
+    "note": "low confidence match"
+  },
+  "parametric production of prostheses using the additive polymer manufacturing technology multi jet fusion": {
+    "found": true,
+    "title": "Parametric Production of Prostheses Using the Additive Polymer Manufacturing Technology Multi Jet Fusion",
+    "year": 2024,
+    "doi": "10.3390/ma17102347",
+    "authors": [
+      "K. Ráž",
+      "Z. Chval",
+      "Vladislav Kemka"
+    ],
+    "abstract": "This study aims to develop a procedure for the production of 3D-printed forearm prostheses (especially hard outer sockets). The production procedure is designed in the form of a parametric workflow (C",
+    "match_score": 1.0
+  },
+  "parametric design and three dimensional printing enabling occupational therapists to develop custom 2": {
+    "found": true,
+    "title": "Parametric design and three-dimensional printing: enabling Occupational therapists to develop custom hand grips",
+    "year": 2025,
+    "doi": "10.1080/17483107.2025.2483953",
+    "authors": [
+      "Mixuan Li",
+      "L. Aflatoony"
+    ],
+    "abstract": "Abstract Purpose This study evaluates a parametric design tool created to support occupational therapists (OTs) in designing personalized assistive technologies (ATs). The tool enables users to modify",
+    "match_score": 0.83
+  },
+  "parametric design and three dimensional printing enabling occupational therapists to develop custom 3": {
+    "found": true,
+    "title": "Parametric design and three-dimensional printing: enabling Occupational therapists to develop custom hand grips",
+    "year": 2025,
+    "doi": "10.1080/17483107.2025.2483953",
+    "authors": [
+      "Mixuan Li",
+      "L. Aflatoony"
+    ],
+    "abstract": "Abstract Purpose This study evaluates a parametric design tool created to support occupational therapists (OTs) in designing personalized assistive technologies (ATs). The tool enables users to modify",
+    "match_score": 0.83
+  },
+  "parametric design and three dimensional printing enabling occupational therapists to develop custom": {
+    "found": true,
+    "title": "Parametric design and three-dimensional printing: enabling Occupational therapists to develop custom hand grips",
+    "year": 2025,
+    "doi": "10.1080/17483107.2025.2483953",
+    "authors": [
+      "Mixuan Li",
+      "L. Aflatoony"
+    ],
+    "abstract": "Abstract Purpose This study evaluates a parametric design tool created to support occupational therapists (OTs) in designing personalized assistive technologies (ATs). The tool enables users to modify",
+    "match_score": 0.83
+  },
+  "the design of an upper limb prosthetic finger using algorithms for full customization": {
+    "found": true,
+    "title": "THE DESIGN OF AN UPPER-LIMB PROSTHETIC FINGER USING ALGORITHMS FOR FULL CUSTOMIZATION",
+    "year": 2023,
+    "doi": "10.54684/ijmmt.2023.15.3.147",
+    "authors": [
+      "F. Răduică",
+      "Ionel Simion"
+    ],
+    "abstract": "Prosthetics, a useful assistive device for patients having suffered trauma, are characterized by extreme customization, adaptability, and complex design. One of the basic principles of having a good p",
+    "match_score": 1.0
+  }
+}

@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+## [0.3.0] — 2026-05-01
+
+### Added
+- `organize_toorganize.py --root` now matches root PDFs against all rows in `elicit_missing_papers.csv` (previously skipped rows without a `download_status` field)
+- `CLAUDE.md` created at `/home/pec/dev/mestrado/` with instructions to update CHANGELOG and bump `Projecto completo.md` version after every change
+
+### Changed
+- `elicit_missing_papers.csv`: 13 papers resolved (session 1), then 2 more (session 2) — now 44 remaining
+- Opaque filenames renamed to real paper titles before organizing so similarity matching works correctly
+- Root-level duplicate PDFs (already present in topic folders) are removed automatically
+
 ## [0.2.0] — 2026-04-29
 
 ### Added
