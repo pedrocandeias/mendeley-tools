@@ -7,7 +7,7 @@ Auto-generated index of figure and table captions extracted from PDFs in the `ma
 
 ---
 
-**Summary:** 265 papers · 1962 figures · 587 tables
+**Summary:** 268 papers · 2002 figures · 597 tables
 
 ## 3dprinting-prosthetics
 
@@ -1200,6 +1200,22 @@ do ensino básico na Póvoa de Lanhoso: comparação de dois métodos.pdf
 - **Table 1** (p. 8): Goals pursued in the reviewed literature toward reaching explainability, and their main target audience.
 - **Table 2** (p. 14): Overall picture of the classiﬁcation of ML models attending to their level of explainability.
 
+### A framework for configuring participation in living labs.pdf
+
+**Figures**
+
+- **Figure 1** (p. 4): Living lab process model (illustrated based on Yasuoka et al. (2018)).
+- **Figure 2** (p. 5): Approach of this study.
+- **Figure 3** (p. 7): Selection process.
+- **Figure 4** (p. 8): Papers collected in this study.
+- **Figure 5** (p. 8): Analysis procedure.
+- **Figure 6** (p. 12): Participation blueprint.
+
+**Tables**
+
+- **Table 1** (p. 6): Detailed search settings to collect literature
+- **Table 2** (p. 9): Key elements to be considered in configuring participation in LLs
+
 ### AI in Co-Creation_ The usability and impact of AI tools for cocreation in participatory design to generate innovative and user-centric design solution (2).pdf
 
 **Figures**
@@ -1776,6 +1792,19 @@ do ensino básico na Póvoa de Lanhoso: comparação de dois métodos.pdf
 **Tables**
 
 - **Table 1** (p. 2): Anthropometric data in the body dimensions
+
+### Low Cost Hand-Tracking Devices to Design Customized Medical Devices.pdf
+
+**Figures**
+
+- **Figure 1** (p. 2): Some traditional steps of socket manufacturing process.
+- **Figure 2** (p. 3): Low cost hand-tracking devices: Leap Motion device (a), Intel Gesture Camera (b), Duo3D device (c) and Microsoft Kinect V2.
+- **Figure 3** (p. 3): Leap Motion device and Oculus Rift.
+- **Figure 4** (p. 4): (a) SMA main modules and (b) modelling virtual tools.
+- **Figure 5** (p. 7): Gestures used to switch between the Camera and Modiﬁcation modalities.
+- **Figure 6** (p. 7): Icon and progress bar into SMA to show state of interaction using Leap Motion device.
+- **Figure 7** (p. 8): UML class diagram of software interface for exploiting Leap Motion device within SMA.
+- **Figure 8** (p. 9): Marking critical zones of residual limb (a), pinch action to model socket shape (b and c).
 
 ### Lower limb prosthetic technologies in the developing world a review of literature from 1994 2010.pdf
 
@@ -2369,6 +2398,48 @@ do ensino básico na Póvoa de Lanhoso: comparação de dois métodos.pdf
 - **Figure 7** (p. 5): Virtual finger model (a), finger 3D model (b), and finger prototype (c) based on a specific subject’s anthropometric measures and morphology. The 3D model and the prototype are represented in three different configurations. The TIP trajectory of the subject, of the 3D model, and of the prototype are reported in (c).
 - **Figure 8** (p. 5): FEM-based analysis results. The Von Mises stress is reported for the most stressed link, i.e, Prox.
 - **Figure 9** (p. 5): Deviation analysis results.
+
+### Parametric CAD modeling for open source scientific hardware Comparing OpenSCAD and FreeCAD Python scripts.pdf
+
+**Figures**
+
+- **Fig 1** (p. 5): Arrangement example of the configurable filter stage. Printable parts are highlighted with colors: motor bracket (green), filter holder (yellow), belt tensioner (blue and orange).
+- **Fig 10** (p. 10): Main filter holder parameters.
+- **Fig 11** (p. 11): Two filter holders for different filter sizes and linear guides.
+- **Fig 12** (p. 11): Example of an idler pulley made out of a bearing and some washers.
+- **Fig 13** (p. 12): Comparing two idler tensioners made out of different components. The size of the idler tensioner is smaller when it contains an idler pulley using a M3 bolt (A), than when using a M4 bolt (B). For example, the space for the pulley or the tensioner width are smaller for case A than case B, as the figure shows that sep_m3 < sep_m4 and tens_w_m3 < ten
+- **Fig 14** (p. 12): Idler tensioners with different stroke lengths.
+- **Fig 15** (p. 12): Idler tensioners with different wall thickness.
+- **Fig 16** (p. 12): Idler tensioners with different leadscrew diameters.
+- **Fig 17** (p. 13): Tensioner holder dimensions depending on idler tensioner sizes.
+- **Fig 18** (p. 13): Belt height parameter. (A) Definition of the belt height. (B) Belt tensioners with different belt heights.
+- **Fig 19** (p. 14): Belt tensioners with different base width.
+- **Fig 2** (p. 6): Motor bracket. (A) Drawing of the motor bracket. (B) Side view of the motor mount. The bracket and the stepper motor are partially transparent to show the internal parts.
+- **Fig 20** (p. 16): Sample codes to model a rectangular cuboid. Code (A) is modeled in OpenSCAD. Codes (B) and (C) are modeled using FreeCAD Python scripts. Code (D) is modeled using a Python script for FreeCAD CadQuery workbench.
+- **Fig 21** (p. 17): OpenSCAD sample codes to show the effect of its functional programming paradigm. (A) Assignment in line 1 has no effect since variables keep a constant value during their entire lifetime. (B) The code shows an invalid assignment since variables cannot change their values.
+- **Fig 22** (p. 17): Sample codes to show the variable scope in OpenSCAD. (A) Assignment in line 4 has no effect outside the if statement; therefore the sphere in line 7 will have a radius of 1. (B) This code produces the same result as in (A) even that the variable assignments are placed after the sphere function calls that use those variables.
+- **Fig 23** (p. 18): Parametric design and variable scope in OpenSCAD. Code (A) will not work because h has not been defined outside the if statement. Codes (B) and (C) will work.
+- **Fig 24** (p. 19): Sample codes of dictionaries for defining component dimensions in Python. (A) Dictionary DIN125_H defines the height (thickness) of some DIN 125 washers. Keys can be a float number, as in line 2. Line 6 shows how to obtain the height (0.5) of a DIN125 M2.5 washer from the dictionary. (B) Dictionaries can be multidimensional and can have strings as 
+- **Fig 25** (p. 21): Source codes and their generated models. (A) OpenSCAD can export to polygonal mesh models, but not export to parametric models. (B) FreeCAD can export to both polygonal mesh models and standard parametric models.
+- **Fig 26** (p. 24): Mesh generation times in OpenSCAD an FreeCAD.
+- **Fig 3** (p. 6): Filter holder. (A) Drawing showing the filter holder parts. (B) Exploded view of the filter holder assembly to a linear guide.
+- **Fig 4** (p. 7): Belt tensioner. (A) Belt tensioner side-front view. (B) Belt tensioner side-back view.
+- **Fig 5** (p. 7): Exploded view of the belt tensioner. The two printable parts are drawn in colors: tensioner holder (blue) and idler tensioner (orange).
+- **Fig 6** (p. 7): Belt tensioner operation. The leadscrew tightens or loosens the idler tensioner (orange). (A) Side view of the retracted belt tensioner. (B) Side view of the extended belt tensioner.
+- **Fig 7** (p. 8): 3D printing orientation of the four printable models to avoid supports.
+- **Fig 8** (p. 9): Motor bracket main parameters.
+- **Fig 9** (p. 9): Two brackets for different stepper motor sizes.
+
+**Tables**
+
+- **Table 1** (p. 5): FOSS CAD tools with scripting capabilities.
+- **Table 2** (p. 21): Time to generate parametric models.
+- **Table 3** (p. 22): Selected parameter values to get different mesh resolutions.
+- **Table 4** (p. 22): Motor bracket: Number of vertices, edges and facets of the meshes and time to generate them.
+- **Table 5** (p. 23): Filter holder: Number of vertices, edges and facets of the meshes and time to generate them.
+- **Table 6** (p. 23): Idler tensioner: Number of vertices, edges and facets of the meshes and time to generate them.
+- **Table 7** (p. 25): General project metrics.
+- **Table 8** (p. 26): Tool characteristics summary. The table is divided in the four topics: (1) geometric modeling kernel; (2) easy of use, (3) programming languages characteristics and (4) tool features.
 
 ### Parametric Production of Prostheses Using the Additive Polymer Manufacturing Technology Multi Jet Fusion.pdf
 

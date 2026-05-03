@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.4.0] — 2026-05-03
+
+### Changed
+- `figures_tables_suggestions.md`: fully regenerated against the updated index (268 papers, 2002 figures, 597 tables) and the complete Chapter 1–7 thesis structure. Three new papers with captions placed: `A framework for configuring participation in living labs.pdf` → §2.6 and §5.1; `Low Cost Hand-Tracking Devices to Design Customized Medical Devices.pdf` → §2.4 and §4.2; `Parametric CAD modeling for open source scientific hardware Comparing OpenSCAD and FreeCAD Python scripts.pdf` → §4.3, §5.3, and §5.5. Two scanned papers (no captions, not indexed) noted explicitly.
+
 ## [0.3.9] — 2026-05-03
 
 ### Added
