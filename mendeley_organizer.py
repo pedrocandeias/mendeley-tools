@@ -16,9 +16,10 @@ from typing import Any
 
 import httpx
 
+from mendeley_paths import resolve_material
+
 # ── Config ────────────────────────────────────────────────────────────────────
 
-MATERIAL_DIR = Path(__file__).parent
 MENDELEY_API_BASE = "https://api.mendeley.com"
 
 # Map local folder name → Mendeley folder name to create
@@ -220,11 +221,11 @@ def _parse_next_link(link_header: str) -> str | None:
 
 # ── Local PDFs ────────────────────────────────────────────────────────────────
 
-def collect_local_pdfs() -> dict[str, list[str]]:
+def collect_local_pdfs(material_dir: Path) -> dict[str, list[str]]:
     """Return {local_folder: [pdf_filename, ...]} for configured folders."""
     result: dict[str, list[str]] = {}
     for folder in FOLDER_MAP:
-        folder_path = MATERIAL_DIR / folder
+        folder_path = material_dir / folder
         if folder_path.is_dir():
             pdfs = [p.name for p in folder_path.glob("*.pdf")]
             if pdfs:
@@ -233,7 +234,7 @@ def collect_local_pdfs() -> dict[str, list[str]]:
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
-async def main(dry_run: bool = False) -> None:
+async def main(dry_run: bool = False, material: Path | None = None) -> None:
     print("=" * 60)
     print("Mendeley Library Organizer")
     print("=" * 60)
@@ -253,7 +254,9 @@ async def main(dry_run: bool = False) -> None:
 
         # 2. Collect local PDFs
         print("\n[2/4] Scanning local PDFs...")
-        local_pdfs = collect_local_pdfs()
+        material_dir = resolve_material(material)
+        print(f"  PDF folder: {material_dir}")
+        local_pdfs = collect_local_pdfs(material_dir)
         total_pdfs = sum(len(v) for v in local_pdfs.values())
         print(f"  {total_pdfs} PDFs across {len(local_pdfs)} folders.")
 
@@ -333,8 +336,15 @@ async def main(dry_run: bool = False) -> None:
 
 if __name__ == "__main__":
     dry_run = "--apply" not in sys.argv
+    material = None
+    if "--material" in sys.argv:
+        idx = sys.argv.index("--material")
+        if idx + 1 >= len(sys.argv):
+            print("ERROR: --material requires a path argument.")
+            sys.exit(1)
+        material = Path(sys.argv[idx + 1])
     if "--apply" in sys.argv:
         print("Running in APPLY mode — changes will be made to Mendeley.")
     else:
         print("Running in DRY RUN mode. Use --apply to actually make changes.")
-    asyncio.run(main(dry_run=dry_run))
+    asyncio.run(main(dry_run=dry_run, material=material))

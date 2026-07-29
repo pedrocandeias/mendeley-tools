@@ -23,9 +23,10 @@ from typing import Any
 import fitz  # pymupdf
 import httpx
 
+from mendeley_paths import resolve_material
+
 # ── Config ────────────────────────────────────────────────────────────────────
 
-MATERIAL_DIR = Path(__file__).parent
 CROSSREF_BASE = "https://api.crossref.org"
 CROSSREF_HEADERS = {
     "User-Agent": "MendeleyEnricher/1.0 (mailto:pedrocandeias+claude@gmail.com)"
@@ -337,7 +338,8 @@ def fields_to_update(mendeley_doc: dict, crossref: dict) -> dict:
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
-async def main(dry_run: bool = True) -> None:
+async def main(dry_run: bool = True, extra_dirs: list[Path] | None = None,
+               material: Path | None = None) -> None:
     print("=" * 60)
     print("Mendeley Metadata Enricher")
     print("=" * 60)
@@ -357,16 +359,26 @@ async def main(dry_run: bool = True) -> None:
         print(f"  {len(docs)} documents loaded.")
 
         print("\n[2/3] Building PDF → document pairs...")
+        if extra_dirs:
+            scan_dirs = extra_dirs
+        else:
+            material_dir = resolve_material(material)
+            print(f"  PDF folder: {material_dir}")
+            scan_dirs = [material_dir / f for f in FOLDER_MAP]
         pairs: list[tuple[Path, dict]] = []
-        for local_folder in FOLDER_MAP:
-            folder_path = MATERIAL_DIR / local_folder
+        unmatched: list[Path] = []
+        for folder_path in scan_dirs:
             if not folder_path.is_dir():
                 continue
             for pdf_path in sorted(folder_path.glob("*.pdf")):
                 doc = match_pdf_to_doc(pdf_path.name, docs)
                 if doc:
                     pairs.append((pdf_path, doc))
-        print(f"  {len(pairs)} matched pairs.")
+                else:
+                    unmatched.append(pdf_path)
+        print(f"  {len(pairs)} matched pairs, {len(unmatched)} unmatched PDFs.")
+        for p in unmatched:
+            print(f"    unmatched: {p.name}")
 
         print("\n[3/3] Enriching metadata...")
         for i, (pdf_path, mendeley_doc) in enumerate(pairs, 1):
@@ -445,10 +457,29 @@ async def main(dry_run: bool = True) -> None:
         await crossref_client.aclose()
 
 
+def _argv_path(flag: str) -> Path | None:
+    """Read `--flag VALUE` from sys.argv, keeping this script's simple CLI."""
+    if flag not in sys.argv:
+        return None
+    idx = sys.argv.index(flag)
+    if idx + 1 >= len(sys.argv):
+        print(f"ERROR: {flag} requires a path argument.")
+        sys.exit(1)
+    return Path(sys.argv[idx + 1]).resolve()
+
+
 if __name__ == "__main__":
     dry_run = "--apply" not in sys.argv
+    material = _argv_path("--material")
+    extra_dirs = None
+    single_dir = _argv_path("--dir")
+    if single_dir:
+        if not single_dir.is_dir():
+            print(f"ERROR: not a directory: {single_dir}")
+            sys.exit(1)
+        extra_dirs = [single_dir]
     if not dry_run:
         print("Running in APPLY mode — Mendeley and PDFs will be modified.")
     else:
         print("Running in DRY RUN mode. Use --apply to make changes.")
-    asyncio.run(main(dry_run=dry_run))
+    asyncio.run(main(dry_run=dry_run, extra_dirs=extra_dirs, material=material))

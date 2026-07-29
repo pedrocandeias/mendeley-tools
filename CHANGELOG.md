@@ -2,6 +2,48 @@
 
 ## [Unreleased]
 
+## [0.5.0] — 2026-07-29
+
+Reunião do repositório com os scripts que tinham divergido no repositório do mestrado, onde eram mantidos desde 2026-05-03. O repositório passa a ser consumido como submódulo em `tools/mendeley-tools`.
+
+### Added
+- `mendeley_normalise_titles.py` — normaliza títulos, autores e fontes: TÍTULOS EM MAIÚSCULAS, apelidos em maiúsculas, entidades e etiquetas HTML, quebras de linha vindas da extracção de PDF, espaços duplicados, ponto final, iniciais com ponto duplicado e nomes de ficheiro usados como título. Prefere o título do CrossRef quando o registo tem DOI e é idempotente: uma segunda execução não regrava o que já está correcto.
+- `mendeley_title_overrides.json` — títulos revistos à mão para os registos que nenhuma heurística resolve, porque o próprio CrossRef guarda o título em maiúsculas. Um valor `null` exclui o registo.
+- `mendeley_dedupe.py` e `mendeley_sync_dois.py` — deduplicação da biblioteca e sincronização de DOIs contra a bibliografia de um manuscrito; existiam desde 2026-07-23 mas nunca tinham chegado a este repositório.
+- `mendeley_paths.py` — resolução partilhada de caminhos, para que os scripts deixem de assumir que estão dentro de um repositório concreto.
+- `README.md` — as três ferramentas em falta documentadas com o par pré-visualização/`--apply`, mais a explicação de por que razão os títulos em maiúsculas não se corrigem automaticamente quando é o editor que os guarda assim no CrossRef.
+
+### Changed
+- **BREAKING** — `mendeley_enrich.py` e `mendeley_organizer.py` deixam de assumir que a pasta dos PDFs é `../material`: aceitam `--material DIR` ou `$MENDELEY_MATERIAL` e, em último recurso, procuram `./material` e o directório actual. `mendeley_sync_dois.py` deixa de ter o nome do manuscrito escrito no código e exige `--md FILE` ou `$MENDELEY_MANUSCRIPT`; em `mendeley_normalise_titles.py` o manuscrito só é necessário para `--only-cited`. Um caminho indicado explicitamente e inexistente termina o script, em vez de recorrer silenciosamente ao directório actual.
+- `mendeley_enrich.py` — incorporadas as melhorias feitas do lado do mestrado: opção `--dir` para percorrer uma pasta única e listagem dos PDFs sem correspondência.
+
+### Fixed
+- `README.md` — as instruções de execução apontavam para uma pasta de scripts descompactados. Acrescentado o contorno para `ModuleNotFoundError: keyring` (usar o interpretador em `~/.local/share/uv/tools/mendeley-mcp/bin/python`) e a nota de que nenhuma correcção chega ao documento Word antes de um *Refresh* do Mendeley Cite.
+
+### Note
+- As entradas 0.4.1 a 0.4.3 descrevem `extract_suggested_assets.py`, que vive no repositório do mestrado e não aqui; acumularam neste ficheiro enquanto as duas cópias estiveram divergentes.
+
+## [0.4.3] — 2026-05-03
+
+### Fixed
+- `extract_suggested_assets.py` — four improvements to `_find_figure_crop()`:
+  1. **Two-column left threshold**: lowered `b[0] > page_w * 0.54` to `b[0] > page_w * 0.50` so right-column blocks starting just past the midpoint (e.g. x0=313 in 612pt pages) are detected; right boundary now set dynamically to `right_start − 5` rather than a fixed `px_mid + 15`.
+  2. **Two-column right threshold**: lowered `cap_x_frac > 0.56` to `cap_x_frac > 0.52` to correctly classify right-column captions whose label centre lands between 0.52–0.56 (e.g. "Fig. 3." at x_frac=0.530); left boundary now set dynamically to `left_end + 5`.
+  3. **Caption block x-filter**: `cap_block` search now requires the candidate block to start on the same side of the page midpoint as the caption search hit, preventing a tall left-column body block from being picked as the caption block for a right-column caption and pushing `bot_y` too far down.
+  4. **Full-width figure guard**: opposing-column blocks are now only counted if they start above the caption (`b[1] < cap_top`); this prevents full-width figures (whose body text sits entirely below the caption) from being falsely cropped to half the page width.
+
+## [0.4.2] — 2026-05-03
+
+### Added
+- `extract_suggested_assets.py`: script that reads `figures_tables_suggestions.md`, fuzzy-matches each referenced paper to its PDF, and extracts assets into two new folders.
+- `figuras/`: 377 PNG/JPEG images extracted from the referenced PDF pages (all 8 thesis chapters covered, named `ch{N}_{paper}_{fig}{N}_p{page}_*.png`).
+- `tabelas/`: 62 Markdown table files extracted from the referenced PDF pages (38 parsed tables + 24 raw-text fallbacks for image-rendered tables).
+
+## [0.4.1] — 2026-05-03
+
+### Changed
+- `figures_tables_suggestions.md`: fully regenerated against the current index (273 papers, 2077 figures, 616 tables) and the complete thesis structure (Chapters 1–9). Suggestions now cover all developed chapters (1–8) with 2–6 items per subsection; notes section added at the end to guide folder-level usage.
+
 ## [0.4.0] — 2026-05-03
 
 ### Changed

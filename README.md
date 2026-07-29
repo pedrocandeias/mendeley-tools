@@ -5,6 +5,11 @@ Scripts to automatically organise and enrich an academic reference library in Me
 **What these scripts do:**
 - **Organiser** — reads your local PDF folders and creates matching folders in Mendeley, then assigns each paper to the right folder automatically
 - **Enricher** — looks up each paper online (via CrossRef) and fills in missing metadata (authors, year, abstract, journal) both in Mendeley and inside the PDF files themselves
+- **Deduplicator** — finds papers added twice, keeps the most complete copy and moves the rest to the Mendeley Trash
+- **DOI sync** — checks the DOIs in your library against the manuscript's bibliography and fills in the missing ones
+- **Title normaliser** — fixes the messy metadata that Mendeley picks up when a paper is imported: TITLES IN CAPITALS, surnames in capitals, HTML leftovers, line breaks copied out of the PDF, and filenames used as the title
+
+The last three matter because the bibliography in the Word document is regenerated from your Mendeley library, so anything wrong in a record shows up verbatim in the manuscript.
 
 ---
 
@@ -99,13 +104,35 @@ git clone https://github.com/pedrocandeias/mendeley-tools.git
 
 ## Running the Scripts
 
-Open your terminal and navigate to the folder where you unzipped the scripts:
+Open your terminal and navigate to the folder holding these scripts:
 
 ```
 cd /path/to/mendeley-tools
 ```
 
 > **Tip:** On Mac, you can drag the folder onto the terminal window after typing `cd ` (with a space) to fill in the path automatically.
+
+> **If `python` complains `ModuleNotFoundError: keyring`:** your system Python cannot read the saved login. Use the Python that came with the Mendeley tool instead — replace `python` with `~/.local/share/uv/tools/mendeley-mcp/bin/python` in any command below.
+
+Every script previews first and changes nothing until you add `--apply`.
+
+### Telling the scripts where your files are
+
+These scripts are independent of any one project, so they do not guess. Two locations can be given:
+
+| Option | What it is | Used by |
+|---|---|---|
+| `--material DIR` | the folder holding your PDF subfolders | organiser, enricher |
+| `--md FILE` | a Markdown manuscript with a `## Bibliografia` section | DOI sync, title normaliser (`--only-cited` only) |
+
+If you always work on the same project, set them once instead of retyping them:
+
+```
+export MENDELEY_MATERIAL=~/dev/mestrado/material
+export MENDELEY_MANUSCRIPT=~/dev/mestrado/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md
+```
+
+Without `--material`, the organiser and enricher look for a `material` folder in the current directory, then the current directory itself. A folder you name explicitly must exist — the scripts stop rather than quietly scanning somewhere else.
 
 ---
 
@@ -146,6 +173,60 @@ python mendeley_enrich.py --apply
 ```
 
 > **Note:** This queries the CrossRef database for each paper. It takes a few minutes if you have many papers. Do not close the terminal while it runs.
+
+---
+
+### Script 3 — Deduplicator
+
+This script finds papers that were added to Mendeley more than once. It keeps the most complete copy, copies over any field that only the duplicates had, and moves the leftovers to the Mendeley Trash — where you can still recover them.
+
+```
+python mendeley_dedupe.py
+python mendeley_dedupe.py --apply
+```
+
+---
+
+### Script 4 — DOI sync
+
+This script compares the DOIs in your library with the manuscript's bibliography and fills in the ones that are missing or wrong. It needs a manuscript, so pass `--md` (or set `MENDELEY_MANUSCRIPT`):
+
+```
+python mendeley_sync_dois.py --md ~/dev/mestrado/pedro-candeias-...-revisto.md
+python mendeley_sync_dois.py --md ~/dev/mestrado/pedro-candeias-...-revisto.md --apply
+```
+
+You can also feed it DOIs you verified yourself with `--dois new.json`, or delete a DOI you know is wrong with `--clear ref-slug`.
+
+---
+
+### Script 5 — Title normaliser
+
+This script fixes metadata that came in badly when a paper was imported: titles and surnames in CAPITALS, HTML leftovers such as `&lt;i&gt;`, line breaks copied out of a PDF, doubled spaces, stray full stops, and filenames used as the title.
+
+```
+python mendeley_normalise_titles.py --report /tmp/audit.md
+python mendeley_normalise_titles.py --overrides mendeley_title_overrides.json --apply
+```
+
+The report lists every proposed change side by side with the current value, so you can read it before applying anything.
+
+When a paper has a DOI, the script takes the correct title from CrossRef. But some publishers *store* their titles in capitals, so CrossRef gives back the same shouting text. Those cannot be fixed automatically — turning `METHODS AND SUMMARY STATISTICS` back into normal writing needs a human, because a computer cannot tell a proper name from an ordinary word. Their correct spelling is written by hand in `mendeley_title_overrides.json`:
+
+```json
+{
+  "8caca03a-e0a3-3277-9d13-e43b652fc727": {"title": "2012 anthropometric survey of U.S. Army personnel: Methods and summary statistics"},
+  "9ab5ba5b-494a-3df9-a612-bb0b2d7c77cb": null
+}
+```
+
+The key is the Mendeley document id, shown in the report. A value of `null` means *leave this record alone* — useful when the title is broken at source and case-fixing it would only hide the problem.
+
+Running the script twice is safe: the second run sees the records are already correct and writes nothing.
+
+To limit the work to the papers a manuscript actually cites, add `--only-cited --md FILE`. Without `--md` the whole library is normalised.
+
+> **Remember:** none of these corrections appear in the Word document until you press **Refresh** in the Mendeley Cite panel.
 
 ---
 
@@ -196,6 +277,8 @@ Copy the error message and open an issue on this repository.
 | `titles_to_fix.txt` | List of papers with title issues to fix manually |
 | `flag_titles.py` | Scans PDF filenames and flags problems (run before the organiser) |
 | `rename_pdfs.py` | Renames PDFs using their metadata |
+| `mendeley_title_overrides.json` | Hand-checked titles for records the scripts cannot fix on their own |
+| `mendeley_paths.py` | Shared helper that resolves `--material` and `--md` (not run directly) |
 
 ---
 
