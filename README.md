@@ -263,7 +263,7 @@ Run `mendeley-auth login` and follow the steps again.
 Your session expired. Run `mendeley-auth login` to reconnect.
 
 **A paper wasn't matched or enriched**
-See `titles_to_fix.txt` — unmatched and unenriched papers are listed there with notes on what to fix manually.
+The enricher prints every PDF it could not match to a library record. Matching is by filename against the record title, so a file named after a download id rather than the paper will not be found.
 
 **The script stops with an error**
 Copy the error message and open an issue on this repository.
@@ -274,9 +274,6 @@ Copy the error message and open an issue on this repository.
 
 | File | What it does |
 |---|---|
-| `titles_to_fix.txt` | List of papers with title issues to fix manually |
-| `flag_titles.py` | Scans PDF filenames and flags problems (run before the organiser) |
-| `rename_pdfs.py` | Renames PDFs using their metadata |
 | `mendeley_title_overrides.json` | Hand-checked titles for records the scripts cannot fix on their own |
 | `mendeley_paths.py` | Shared helper that resolves `--material` and `--md` (not run directly) |
 

@@ -1,28 +1,21 @@
 # Python
 __pycache__/
 *.py[cod]
-*.tmp.pdf
 
-# PDFs and research files (not versioned)
+# Credentials and local settings — never commit these
+.env
+.env.local
+
+# Local run artefacts. This repository holds tools only: the PDF collection,
+# the cached library dumps and the generated reports belong to whichever
+# project the tools are pointed at.
+*_cache.json
+mendeley_docs*.json
 *.pdf
 *.zip
-*.f3d
-*.webp
 *.csv
+report*.md
+audit*.md
 
-# Folders with research material
-prosthetics-design/
-3dprinting-prosthetics/
-antropometria/
-amputacao/
-reabilitacao/
-parametrico/
-prosthetics-user/
-colaboracao/
-prosthetics-control/
-outros/
-lower-limb/
-normas/
-Modelos\ de\ proteses/
-Diagramas/
-capitulos/
+# LibreOffice lock files
+.~lock.*#

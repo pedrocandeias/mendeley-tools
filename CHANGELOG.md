@@ -2,6 +2,20 @@
 
 ## [Unreleased]
 
+## [0.6.0] — 2026-07-29
+
+Redução do repositório às ferramentas Mendeley. Até aqui a pasta `material/` do projecto do mestrado *era* o clone deste repositório, pelo que ficheiros que nada têm de independente foram versionados aqui por arrastamento.
+
+### Removed
+- **BREAKING** — saíram 15 ficheiros que pertencem ao projecto que usa as ferramentas, não às ferramentas: os *scripts* Elicit (`elicit_download.py`, `elicit_fetch_missing.py`, `elicit_sync.py` — este último lê os capítulos da dissertação), `extract_figures_tables.py`, `flag_titles.py`, `rename_pdfs.py`, `organize_toorganize.py`, os dados da tese (`figures_tables_index.md`, `figures_tables_suggestions.md`, `titles_to_fix.txt`, `dadosantropometricos-dined.txt`) e artefactos que nunca deviam ter sido versionados (`.elicit_cache.json`, `.fetch_cache.json`, `.ss_cache.json` e um ficheiro de bloqueio do LibreOffice). Todos continuam no repositório do mestrado, em versões mais recentes: as cópias que aqui estavam eram anteriores e ainda continham caminhos absolutos como `/home/pec/Desktop/mestrado/projeto/material`.
+
+### Fixed
+- `.gitignore` — era o da pasta `material/` e ignorava as pastas temáticas de PDFs, `capitulos/` e `*.csv`. Substituído pelo de um repositório de ferramentas: `__pycache__`, credenciais, e os artefactos de execução (dumps da biblioteca, relatórios, PDFs).
+- `README.md` — a secção «Other Files» e a resolução de problemas referiam `titles_to_fix.txt`, `flag_titles.py` e `rename_pdfs.py`, que saíram; o diagnóstico de PDFs sem correspondência passa a descrever o que o enriquecedor imprime.
+
+### Note
+- As entradas anteriores a 0.5.0 descrevem vários destes *scripts*. Ficam como registo histórico do período em que este repositório e a pasta `material/` eram a mesma coisa.
+
 ## [0.5.0] — 2026-07-29
 
 Reunião do repositório com os scripts que tinham divergido no repositório do mestrado, onde eram mantidos desde 2026-05-03. O repositório passa a ser consumido como submódulo em `tools/mendeley-tools`.
